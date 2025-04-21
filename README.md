@@ -1,5 +1,3 @@
-### README.md
-
 # Norrath Navigator
 
 ## Overview
