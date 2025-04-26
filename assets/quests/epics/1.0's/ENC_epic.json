@@ -1,0 +1,166 @@
+{
+  "quest_name": "Staff of the Serpent (Enchanter Epic 1.0)",
+  "steps": [
+    {
+      "step_number": 1,
+      "description": "Go to Qeynos Catacombs and find Reania Jukle. Give her Shining Metallic Robes, Quill, and Piece of Parchment to receive Jeb’s Seal.",
+      "npc": "Reania Jukle",
+      "location": "Qeynos Catacombs",
+      "items_received": ["Jeb’s Seal"]
+    },
+    {
+      "step_number": 2,
+      "description": "Go to East Cabilis and kill Vessel Drozlin to loot Xolion Rod.",
+      "npc": "Vessel Drozlin",
+      "location": "East Cabilis",
+      "item_received": "Xolion Rod"
+    },
+    {
+      "step_number": 3,
+      "description": "Go to Neriak Third Gate and kill Verina Tomb to loot Innoruuk’s Word.",
+      "npc": "Verina Tomb",
+      "location": "Neriak Third Gate",
+      "item_received": "Innoruuk’s Word"
+    },
+    {
+      "step_number": 4,
+      "description": "Go to Chardok and kill Prince Selrach Di’Zok to loot Head of a Prince. Give Head of a Prince to Joren Nobleheart in South Felwithe to receive Chalice of Kings.",
+      "npc": ["Prince Selrach Di’Zok", "Joren Nobleheart"],
+      "location": ["Chardok", "South Felwithe"],
+      "items_received": ["Head of a Prince", "Chalice of Kings"]
+    },
+    {
+      "step_number": 5,
+      "description": "Go to Oggok and complete the Snow Blossom quest to receive Snow Blossom.",
+      "npc": "N/A",
+      "location": "Oggok",
+      "item_received": "Snow Blossom"
+    },
+    {
+      "step_number": 6,
+      "description": "Combine Xolion Rod, Innoruuk’s Word, Chalice of Kings, and Snow Blossom in Enchanter’s Sack to create Sack for Modani. Give Sack for Modani to Modani Qu`Loni in The Overthere to receive 1st Piece of Staff.",
+      "npc": "Modani Qu`Loni",
+      "location": "The Overthere",
+      "items_received": ["1st Piece of Staff"]
+    },
+    {
+      "step_number": 7,
+      "description": "Go to South Ro and kill Cazel to loot Spoon.",
+      "npc": "Cazel",
+      "location": "South Ro",
+      "item_received": "Spoon"
+    },
+    {
+      "step_number": 8,
+      "description": "Loot The One Key (ground spawn) in The Overthere.",
+      "npc": "N/A",
+      "location": "The Overthere",
+      "item_received": "The One Key"
+    },
+    {
+      "step_number": 9,
+      "description": "Loot Lost Scroll (ground spawn) in Dalnir.",
+      "npc": "N/A",
+      "location": "Dalnir",
+      "item_received": "Lost Scroll"
+    },
+    {
+      "step_number": 10,
+      "description": "Loot Charm and Sacrifice (ground spawn) in Plane of Sky Quest room.",
+      "npc": "N/A",
+      "location": "Plane of Sky",
+      "item_received": "Charm and Sacrifice"
+    },
+    {
+      "step_number": 11,
+      "description": "Combine Spoon, The One Key, Lost Scroll, and Charm and Sacrifice in Enchanter’s Sack to create Sack for Mizzle. Give Sack for Mizzle to Clockwork VIIX in Ak’Anon to receive 2nd Piece of Staff.",
+      "npc": "Clockwork VIIX",
+      "location": "Ak’Anon",
+      "items_received": ["2nd Piece of Staff"]
+    },
+    {
+      "step_number": 12,
+      "description": "Buy Dull Diamond, Dull Sapphire, Dull Emerald, and Dull Ruby from Nadia Starfeast in Firiona Vie.",
+      "npc": "Nadia Starfeast",
+      "location": "Firiona Vie",
+      "items_received": ["Dull Diamond", "Dull Sapphire", "Dull Emerald", "Dull Ruby"]
+    },
+    {
+      "step_number": 13,
+      "description": "Give Dull Diamond to a charmed spectral librarian in Kaesora to receive Enchanted Diamond.",
+      "npc": "spectral librarian",
+      "location": "Kaesora",
+      "item_received": "Enchanted Diamond"
+    },
+    {
+      "step_number": 14,
+      "description": "Give Dull Sapphire to a charmed Felia Goldwing in Skyfire Mountains to receive Enchanted Sapphire.",
+      "npc": "Felia Goldwing",
+      "location": "Skyfire Mountains",
+      "item_received": "Enchanted Sapphire"
+    },
+    {
+      "step_number": 15,
+      "description": "Give Dull Emerald to a charmed Impaler Tzilug in The Overthere to receive Enchanted Emerald.",
+      "npc": "Impaler Tzilug",
+      "location": "The Overthere",
+      "item_received": "Enchanted Emerald"
+    },
+    {
+      "step_number": 16,
+      "description": "Give Dull Ruby to a charmed Wraith of Jaxion in City of Mist to receive Enchanted Ruby.",
+      "npc": "Wraith of Jaxion",
+      "location": "City of Mist",
+      "item_received": "Enchanted Ruby"
+    },
+    {
+      "step_number": 17,
+      "description": "Combine Enchanted Diamond, Enchanted Sapphire, Enchanted Emerald, and Enchanted Ruby in Enchanter’s Sack to create Sack for Nadia. Give Sack for Nadia to Nadia Starfeast in Firiona Vie to receive 3rd Piece of Staff.",
+      "npc": "Nadia Starfeast",
+      "location": "Firiona Vie",
+      "items_received": ["3rd Piece of Staff"]
+    },
+    {
+      "step_number": 18,
+      "description": "Go to Plane of Fear and kill Wraith of the Shissar to loot Head of the Serpent.",
+      "npc": "Wraith of the Shissar",
+      "location": "Plane of Fear",
+      "item_received": "Head of the Serpent"
+    },
+    {
+      "step_number": 19,
+      "description": "Go to Plane of Hate and kill forsaken revenant to loot Essence of a Vampire.",
+      "npc": "forsaken revenant",
+      "location": "Plane of Hate",
+      "item_received": "Essence of a Vampire"
+    },
+    {
+      "step_number": 20,
+      "description": "Go to Field of Bone and kill The Tangrin to loot Sands of the Mystics.",
+      "npc": "The Tangrin",
+      "location": "Field of Bone",
+      "item_received": "Sands of the Mystics"
+    },
+    {
+      "step_number": 21,
+      "description": "Go to The Hole and kill Ghost of Kindle to loot Essence of a Ghost.",
+      "npc": "Ghost of Kindle",
+      "location": "The Hole",
+      "item_received": "Essence of a Ghost"
+    },
+    {
+      "step_number": 22,
+      "description": "Combine Head of the Serpent, Essence of a Vampire, Sands of the Mystics, and Essence of a Ghost in Enchanter’s Sack to create Sack for Polzin. Give Sack for Polzin to Polzin Mrid in The Hole to receive 4th Piece of Staff.",
+      "npc": "Polzin Mrid",
+      "location": "The Hole",
+      "items_received": ["4th Piece of Staff"]
+    },
+    {
+      "step_number": 23,
+      "description": "Combine 1st, 2nd, 3rd, and 4th Piece of Staff in Enchanter’s Sack to receive Bundle of Staves. Give Bundle of Staves to a sarnak imitator in Burning Woods to receive Staff of the Serpent.",
+      "npc": "sarnak imitator",
+      "location": "Burning Woods",
+      "items_received": ["Staff of the Serpent"]
+    }
+  ]
+}
