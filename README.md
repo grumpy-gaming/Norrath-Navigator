@@ -1,6 +1,6 @@
 # Norrath Navigator
 
-<img src="https://raw.githubusercontent.com/your-username/your-repo-name/main/assets/images/logo.png" alt="Norrath Navigator Logo" width="200" />
+<img src="assets/images/pic 002.jpg" alt="Norrath Navigator Logo" width="200" />
 
 ## Overview
 Welcome to Norrath Navigator, a companion app designed to enhance the gameplay experience on EQEmu servers. With tools for character management, quest tracking, map navigation, and more, this app is perfect for adventurers who want to streamline their journey and immerse themselves in the rich world of Norrath.
