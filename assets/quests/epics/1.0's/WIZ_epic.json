@@ -1,0 +1,40 @@
+{
+  "quest_name": "Staff of the Four (Wizard Epic 1.0)",
+  "steps": [
+    {
+      "step_number": 1,
+      "description": "Go to Plane of Sky and kill the Keeper of Souls to loot the Essence of a Ghost.",
+      "npc": "Keeper of Souls",
+      "location": "Plane of Sky",
+      "item_received": "Essence of a Ghost"
+    },
+    {
+      "step_number": 2,
+      "description": "Go to Plane of Fear and kill the Dread, Fright, and Terror until you loot the Essence of a Vampire.",
+      "npc": ["Dread", "Fright", "Terror"],
+      "location": "Plane of Fear",
+      "item_received": "Essence of a Vampire"
+    },
+    {
+      "step_number": 3,
+      "description": "Go to Plane of Hate and kill the Maestro of Rancor to loot the Essence of a Shadow.",
+      "npc": "Maestro of Rancor",
+      "location": "Plane of Hate",
+      "item_received": "Essence of a Shadow"
+    },
+    {
+      "step_number": 4,
+      "description": "Go to Kithicor Forest and kill General V`ghera to loot the Essence of a Phantom.",
+      "npc": "General V`ghera",
+      "location": "Kithicor Forest",
+      "item_received": "Essence of a Phantom"
+    },
+    {
+      "step_number": 5,
+      "description": "Go to East Freeport and find Arantir Karondor. Give him Essence of a Ghost, Essence of a Vampire, Essence of a Shadow, and Essence of a Phantom to receive Staff of the Four.",
+      "npc": "Arantir Karondor",
+      "location": "East Freeport",
+      "items_received": ["Staff of the Four"]
+    }
+  ]
+}
