@@ -1,0 +1,54 @@
+{
+  "quest_name": "Spear of Fate (Shaman Epic 1.0)",
+  "steps": [
+    {
+      "step_number": 1,
+      "description": "Go to Lake of Ill Omen and find the Spirit Sentinel. Say 'I will help' to receive the Test of Patience.",
+      "npc": "Spirit Sentinel",
+      "location": "Lake of Ill Omen",
+      "item_received": "Test of Patience"
+    },
+    {
+      "step_number": 2,
+      "description": "Go to Emerald Jungle and find the Spirit Sentinel. Say 'I will help' to receive the Test of Wisdom.",
+      "npc": "Spirit Sentinel",
+      "location": "Emerald Jungle",
+      "item_received": "Test of Wisdom"
+    },
+    {
+      "step_number": 3,
+      "description": "Go to Field of Bone and find the Spirit Sentinel. Say 'I will help' to receive the Test of Strength.",
+      "npc": "Spirit Sentinel",
+      "location": "Field of Bone",
+      "item_received": "Test of Strength"
+    },
+    {
+      "step_number": 4,
+      "description": "Complete the Test of Patience by waiting for the Spirit Sentinel to give you the next task.",
+      "npc": "Spirit Sentinel",
+      "location": "Lake of Ill Omen",
+      "item_received": "Next Task"
+    },
+    {
+      "step_number": 5,
+      "description": "Complete the Test of Wisdom by answering the Spirit Sentinel's questions correctly.",
+      "npc": "Spirit Sentinel",
+      "location": "Emerald Jungle",
+      "item_received": "Next Task"
+    },
+    {
+      "step_number": 6,
+      "description": "Complete the Test of Strength by defeating the enemies the Spirit Sentinel sends you.",
+      "npc": "Spirit Sentinel",
+      "location": "Field of Bone",
+      "item_received": "Next Task"
+    },
+    {
+      "step_number": 7,
+      "description": "Return to the Spirit Sentinel in Lake of Ill Omen with the completed tasks to receive the Spear of Fate.",
+      "npc": "Spirit Sentinel",
+      "location": "Lake of Ill Omen",
+      "item_received": "Spear of Fate"
+    }
+  ]
+}
