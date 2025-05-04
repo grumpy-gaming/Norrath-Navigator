@@ -28,9 +28,9 @@ Once you have your account and are in-game, you are greeted with that old famili
 ### Unlocking Kunark
 - **Required Kills**: 
 
-- [] 1Lady Vox in Permafrost
+- [ ] Lady Vox in Permafrost
 
-- [] Lord Nagafen in Solueks Eye
+- [ ] Lord Nagafen in Solueks Eye
 
 
 ### Levels 30-40: Grimling Forest
@@ -44,13 +44,13 @@ Once you have your account and are in-game, you are greeted with that old famili
 ### Unlocking Velious
 - **Required Kills**:
 
-- [] Severilous in The Emerald Jungle
+- [ ] Severilous in The Emerald Jungle
 
-- [] Talendor in The Skyfire Mountains
+- [ ] Talendor in The Skyfire Mountains
 
-- [] Gorenaire in The Dreadlands
+- [ ] Gorenaire in The Dreadlands
 
-- [] Trakanon in The Ruins of Old Sebilis
+- [ ] Trakanon in The Ruins of Old Sebilis
 
 
 *These dragons are formidable, so plan your strategy accordingly*.
@@ -62,15 +62,15 @@ Once you have your account and are in-game, you are greeted with that old famili
 ### Unlocking Luclin
 - **Required Kills**:
 
-- [] Wuoshi in The Wakening Lands
+- [ ] Wuoshi in The Wakening Lands
 
-- [] Klandicar in The Western Wastes
+- [ ] Klandicar in The Western Wastes
 
-- [] Zlandicar in The Dragon Necropolis
+- [ ] Zlandicar in The Dragon Necropolis
 
-- [] Kelorek`Dar in Cobalt Scar
+- [ ] Kelorek`Dar in Cobalt Scar
 
-- [] Dozekar the Cursed in The Temple of Veeshan
+- [ ] Dozekar the Cursed in The Temple of Veeshan
 
 
 ## AA Grinding (Pause leveling here to get some AAs)
@@ -82,15 +82,15 @@ Once you have your account and are in-game, you are greeted with that old famili
 ### Unlocking Planes of Power
 - **Required Kills**:
 
-- [] Thought Horror Overfiend in The Deep
+- [ ] Thought Horror Overfiend in The Deep
 
-- [] Grieg Veneficus in Greig's End
+- [ ] Grieg Veneficus in Greig's End
 
-- [] Insanity Crawler in The Akheva Ruins
+- [ ] Insanity Crawler in The Akheva Ruins
 
-- [] Xerkizh the Creator in Ssraeshza Temple
+- [ ] Xerkizh the Creator in Ssraeshza Temple
 
-- [] Emperor Ssraeshza in Ssraeshza Temple
+- [ ] Emperor Ssraeshza in Ssraeshza Temple
 
 
 *These encounters are challenging and may require assistance*.
