@@ -1,6 +1,6 @@
 # Starting Guide
 
-<img src="Norrath-Navigator/assets/images/pic 004.jpg" alt="Norrath Navigator Logo" width="720" align="canter">
+<img src="assets/images/pic 004.jpg" alt="Norrath Navigator Logo" width="720" align="canter">
 
 ## Overview
 This guide is just a quick rundown of what I do with each new toon that I create. It can be completed solo or with help, i.e., the progression unlock steps will go by faster and easier with help from a higher level. Whether you can get experience with them or not, the kill will count towards your flagging.
