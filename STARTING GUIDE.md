@@ -104,4 +104,4 @@ Once you have access to the Plane of Power (and in turn The Plane of Knowledge),
 - **Tips**: At level 60, move to Plane of Fire for efficient leveling and AA farming. This zone offers high-density mobs and excellent experience. Finish your AA grinding between Plane of Fire, Dragon Necropolis, and even Umbral Plains. *If you have not been flagged for PoF yet, DN and UP are great alternatives for leveling and grinding out those last AAs*.
 
 ## Money-Making Tip
-- **Umbral Plains**: This zone is great for making money by selling loot to vendors. While other zones may not offer valuable loot, Umbral Plains can help you accumulate plat fast.
+- **Umbral Plains**: This zone is great for making money by selling loot to vendors. While other zones may not offer valuable loot, Umbral Plains can help you accumulate plat fast. Be careful here, the mobs summon!
