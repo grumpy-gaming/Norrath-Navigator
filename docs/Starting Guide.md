@@ -11,6 +11,8 @@ Once you have your account and are in-game, you are greeted with that old famili
 
 *As of this writing, we cannot use the Drakkin race as a new race, but can race change to them later, and the tutorial is not live.*
 
+[add starting 2 quests/task here and what to expect before you venture out and start leveling]
+
 ## Leveling Zones and Progression
 
 ### Levels 1-10: Blackburrow
