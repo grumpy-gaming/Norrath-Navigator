@@ -27,8 +27,11 @@ Once you have your account and are in-game, you are greeted with that old famili
 
 ### Unlocking Kunark
 - **Required Kills**: 
+
 Lady Vox in Permafrost
-Lord Nagafen in Solueks Eye.  
+
+Lord Nagafen in Solueks Eye
+
 
 ### Levels 30-40: Grimling Forest
 - **Zone**: Grimling Forest
@@ -40,10 +43,15 @@ Lord Nagafen in Solueks Eye.
 
 ### Unlocking Velious
 - **Required Kills**:
+
 Severilous in The Emerald Jungle
+
 Talendor in The Skyfire Mountains
+
 Gorenaire in The Dreadlands
+
 Trakanon in The Ruins of Old Sebilis
+
 
 *These dragons are formidable, so plan your strategy accordingly*.
 
@@ -53,11 +61,17 @@ Trakanon in The Ruins of Old Sebilis
 
 ### Unlocking Luclin
 - **Required Kills**:
+
 Wuoshi in The Wakening Lands
+
 Klandicar in The Western Wastes
-Zlandicar in The Dragon Necropolis 
+
+Zlandicar in The Dragon Necropolis
+
 Kelorek`Dar in Cobalt Scar
+
 Dozekar the Cursed in The Temple of Veeshan
+
 
 ## AA Grinding (Pause leveling here to get some AAs)
 
@@ -67,11 +81,17 @@ Dozekar the Cursed in The Temple of Veeshan
 
 ### Unlocking Planes of Power
 - **Required Kills**:
+
 Thought Horror Overfiend in The Deep
+
 Grieg Veneficus in Greig's End
+
 Insanity Crawler in The Akheva Ruins
+
 Xerkizh the Creator in Ssraeshza Temple
+
 Emperor Ssraeshza in Ssraeshza Temple
+
 
 *These encounters are challenging and may require assistance*.
 
