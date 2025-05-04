@@ -7,7 +7,9 @@ It covers the best zones for leveling, when to focus on Alternate Advancement (A
 
 The first thing to do is get yourself an EQEmu account and then download and install The Heroes' Journey game client. You can find all the info you need to get started and even optimizations to help make the game run smoother, at The Heroes' Journey Wiki, https://thj-wiki.web.app/.
 
-Once you have your account and are in-game, you are greeted with that old familiar character select screen. This is pretty straightforward. Pick a race, and your initial class, and log in. *As of this writing, we cannot use the Drakkin race as a new race, but can race change to them later, and the tutorial is not live.*
+Once you have your account and are in-game, you are greeted with that old familiar character select screen. This is pretty straightforward. Pick a race, and your initial class, and log in. 
+
+*As of this writing, we cannot use the Drakkin race as a new race, but can race change to them later, and the tutorial is not live.*
 
 ## Leveling Zones and Progression
 
