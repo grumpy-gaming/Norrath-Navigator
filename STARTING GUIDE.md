@@ -11,7 +11,7 @@ The first thing to do is get yourself an EQEmu account and then download and ins
 
 Once you have your account and are in-game, you are greeted with that old familiar character select screen. This is pretty straightforward. Pick a race, and your initial class, and log in. 
 
-*As of this writing, we cannot use the Drakkin race as a new race, but can race change to them later for plat or Echos of Memory, and the tutorial is not live.*
+*As of this writing, we cannot choose the Drakkin race as a new race, but once in game you can pay (10 EoM or 25k plat) to do a race change to them later in the Bazaar. The tutorial also is not live.*
 
 [add starting 2 quests/task here and what to expect before you venture out and start leveling]
 
