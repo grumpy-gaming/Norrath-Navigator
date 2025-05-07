@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Norrath Navigator—your ultimate EverQuest companion with maps, quest tracking, and character management.">
     <title>Norrath Navigator</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <header>
-        <img src="../assets/images/pic 002.jpg" alt="Norrath Navigator Logo" class="logo">
+        <img src="../assets/images/pic_002.jpg" alt="Norrath Navigator Logo" class="logo">
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#maps">Maps</a></li>
-                <li><a href="#quests">Quests</a></li>
-                <li><a href="#characters">Characters</a></li>
-                <li><a href="#settings">Settings</a></li>
+                <li><a href="#home" aria-label="Go to Home">Home</a></li>
+                <li><a href="#maps" aria-label="Go to Maps">Maps</a></li>
+                <li><a href="#quests" aria-label="Go to Quests">Quests</a></li>
+                <li><a href="#characters" aria-label="Go to Characters">Characters</a></li>
+                <li><a href="#settings" aria-label="Go to Settings">Settings</a></li>
             </ul>
         </nav>
     </header>
@@ -44,8 +45,8 @@
         <section id="call-to-action">
             <h2>Sign Up / Log In</h2>
             <p>Sign up now to save your progress and access exclusive content!</p>
-            <button onclick="location.href='signup.html'">Sign Up</button>
-            <button onclick="location.href='login.html'">Log In</button>
+            <a href="signup.html" class="btn">Sign Up</a>
+            <a href="login.html" class="btn">Log In</a>
         </section>
     </main>
 
