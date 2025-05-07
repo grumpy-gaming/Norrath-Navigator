@@ -1,6 +1,6 @@
 # Norrath Navigator Roadmap  
 
-<img src="/assets/images/pic_003.jpg" alt="Norrath Navigator Logo" width="720" align="canter">
+<img src="/assets/images/pic_003.jpg" alt="Norrath Navigator Logo" width="480" align="canter">
 
 ## **Phase 1: Foundation** ✅ *(Completed)*  
 ### Goals:  
