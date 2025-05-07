@@ -1,3 +1,5 @@
+<img src="/assets/images/pic_001.jpg" alt="Norrath Navigator Logo" width="720" align="canter">
+
 # License
 
 **Norrath Navigator License**
