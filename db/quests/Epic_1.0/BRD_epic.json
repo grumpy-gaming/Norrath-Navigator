@@ -1,0 +1,201 @@
+{
+  "quest_name": "Singing Short Sword (Bard Epic 1.0)",
+  "checklist": [
+    {
+      "step": "Maestro’s Symphony Page 24 Top",
+      "tasks": [
+        {
+          "description": "Talk to Konia Swiftfoot in Western Karana, receive a Torch of Misty",
+          "npc": "Konia Swiftfoot",
+          "location": "Western Karana",
+          "item_received": "Torch of Misty"
+        },
+        {
+          "description": "Give the torch to Fajio Knejo in Misty Thicket, receive Torch of Ro",
+          "npc": "Fajio Knejo",
+          "location": "Misty Thicket",
+          "item_received": "Torch of Ro"
+        },
+        {
+          "description": "Give the torch to Andad Filla in South Ro, receive Torch of Rathe",
+          "npc": "Andad Filla",
+          "location": "South Ro",
+          "item_received": "Torch of Rathe"
+        },
+        {
+          "description": "Give the torch to Misty Tekchita in Lake Rathetear, receive ring Proof of Speed",
+          "npc": "Misty Tekchita",
+          "location": "Lake Rathetear",
+          "item_received": "Proof of Speed"
+        },
+        {
+          "description": "Give the ring to Konia Swiftfoot in Western Karana, receive Maestro’s Symphony Page 24 Top",
+          "npc": "Konia Swiftfoot",
+          "location": "Western Karana",
+          "item_received": "Maestro’s Symphony Page 24 Top"
+        }
+      ]
+    },
+    {
+      "step": "Maestro’s Symphony Page 24 Bottom",
+      "tasks": [
+        {
+          "description": "Ask Baenar Swiftsong in South Karana, 'what doll,' receive Solusek Mining Company Invoice",
+          "npc": "Baenar Swiftsong",
+          "location": "South Karana",
+          "item_received": "Solusek Mining Company Invoice"
+        },
+        {
+          "description": "Take the invoice to Marfen Binkdirple in Solusek’s Eye, receive Mechanical Doll",
+          "npc": "Marfen Binkdirple",
+          "location": "Solusek’s Eye",
+          "item_received": "Mechanical Doll"
+        },
+        {
+          "description": "Give the doll to Serra in Unrest, receive a Ripped Qeynos Bards Guild Flyer and Note for Baenar",
+          "npc": "Serra",
+          "location": "Unrest",
+          "item_received": ["Ripped Qeynos Bards Guild Flyer", "Note for Baenar"]
+        },
+        {
+          "description": "Give the note to Baenar Swiftsong, receive a Note to Maligar",
+          "npc": "Baenar Swiftsong",
+          "location": "South Karana",
+          "item_received": "Note to Maligar"
+        },
+        {
+          "description": "Give the note to Maligar in Western Plains of Karana",
+          "npc": "Maligar",
+          "location": "Western Plains of Karana"
+        },
+        {
+          "description": "Kill Maligar's Enraged Doppleganger, loot his head",
+          "npc": "Maligar's Enraged Doppleganger",
+          "location": "Western Plains of Karana",
+          "item_received": "Head of Maligar's Enraged Doppleganger"
+        },
+        {
+          "description": "Give the head to Baenar Swiftsong, receive Mahlin’s Mystical Bongos",
+          "npc": "Baenar Swiftsong",
+          "location": "South Karana",
+          "item_received": "Mahlin’s Mystical Bongos"
+        },
+        {
+          "description": "Give Mahlin’s Mystical Bongos to Konia Swiftfoot, receive Maestro’s Symphony Page 24 Bottom",
+          "npc": "Konia Swiftfoot",
+          "location": "Western Karana",
+          "item_received": "Maestro’s Symphony Page 24 Bottom"
+        }
+      ]
+    },
+    {
+      "step": "Maestro’s Symphony Page 25",
+      "tasks": [
+        {
+          "description": "Kill Blackwing in Rathe Mountains, loot Onyx Drake Gut",
+          "npc": "Blackwing",
+          "location": "Rathe Mountains",
+          "item_received": "Onyx Drake Gut"
+        },
+        {
+          "description": "Kill Nezekezena or Phurzikon in Burning Woods, loot Red Wurm Gut",
+          "npc": ["Nezekezena", "Phurzikon"],
+          "location": "Burning Woods",
+          "item_received": "Red Wurm Gut"
+        },
+        {
+          "description": "Kill Eldrig the Old in Skyfire Mountains, loot Chromodrac Gut",
+          "npc": "Eldrig the Old",
+          "location": "Skyfire Mountains",
+          "item_received": "Chromodrac Gut"
+        },
+        {
+          "description": "Give all the guts to Kelkim Menkia in South Karana, receive Maestro’s Symphony Page 25",
+          "npc": "Kelkim Menkia",
+          "location": "South Karana",
+          "item_received": "Maestro’s Symphony Page 25"
+        }
+      ]
+    },
+    {
+      "step": "Mystical Lute Head",
+      "tasks": [
+        {
+          "description": "OPTIONAL Kill Quag Maelstrom in Ocean of Tears, loot Alluring Horn",
+          "npc": "Quag Maelstrom",
+          "location": "Ocean of Tears",
+          "item_received": "Alluring Horn"
+        },
+        {
+          "description": "OPTIONAL Give Alluring Horn to Vedico Windwhisper in Butcherblock Mountains, receive a Note to Forpar Fizfla",
+          "npc": "Vedico Windwhisper",
+          "location": "Butcherblock Mountains",
+          "item_received": "Note to Forpar Fizfla"
+        },
+        {
+          "description": "OPTIONAL Give Note to Forpar Fizfla to Forpar Fizfla in Steamfont Mountains",
+          "npc": "Forpar Fizfla",
+          "location": "Steamfont Mountains"
+        },
+        {
+          "description": "Say 'What Components' to Forpar Fizfla, Receive Forpar’s Note to Himself",
+          "npc": "Forpar Fizfla",
+          "location": "Steamfont Mountains",
+          "item_received": "Forpar’s Note to Himself"
+        },
+        {
+          "description": "Kill Phinigel Autropos in Kedge Keep, loot Kedge Backbone",
+          "npc": "Phinigel Autropos",
+          "location": "Kedge Keep",
+          "item_received": "Kedge Backbone"
+        },
+        {
+          "description": "Kill an Amygdalan warrior in Plane of Fear, loot Amygdalan Tendril",
+          "npc": "Amygdalan warrior",
+          "location": "Plane of Fear",
+          "item_received": "Amygdalan Tendril"
+        },
+        {
+          "description": "Kill a Drolvarg warlord in Karnor’s Castle, loot Petrified Werewolf Skull",
+          "npc": "Drolvarg warlord",
+          "location": "Karnor’s Castle",
+          "item_received": "Petrified Werewolf Skull"
+        },
+        {
+          "description": "Give Forpar’s Note to Himself, Kedge Backbone, Amygdalan Tendril, Petrified Werewolf Skull to Forpar and receive Mystical Lute Head",
+          "npc": "Forpar Fizfla",
+          "location": "Steamfont Mountains",
+          "items_given": ["Forpar’s Note to Himself", "Kedge Backbone", "Amygdalan Tendril", "Petrified Werewolf Skull"],
+          "item_received": "Mystical Lute Head"
+        }
+      ]
+    },
+    {
+      "step": "Mystical Lute Body",
+      "tasks": [
+        {
+          "description": "Kill a red dragon (Lord Nagafen, Zordakalicus Ragefire, Talendor) or Nortlav the Scalekeeper and loot Red Dragon Scales",
+          "npc": ["Lord Nagafen", "Zordakalicus Ragefire", "Talendor", "Nortlav the Scalekeeper"],
+          "location": ["Nagafen's Lair", "Skyfire Mountains", "Burning Woods", "The Hole"],
+          "item_received": "Red Dragon Scales"
+        },
+        {
+          "description": "Kill a white dragon (Lady Vox, Gorenaire), loot White Dragon Scales",
+          "npc": ["Lady Vox", "Gorenaire"],
+          "location": ["Permafrost Keep", "Dreadlands"],
+          "item_received": "White Dragon Scales"
+        },
+        {
+          "description": "Give 1 metal bits (smithed), Red Dragon Scales and White Dragon Scales to Forpar, receive Mystical Lute Body",
+          "npc": "Forpar Fizfla",
+          "location": "Steamfont Mountains",
+          "items_given": ["1 metal bits (smithed)", "Red Dragon Scales", "White Dragon Scales"],
+          "item_received": "Mystical Lute Body"
+        }
+      ]
+    },
+    {
+      "step": "Undead Dragongut Strings",
+      "tasks": [
+        {
+          "description": "Give An Undead Bard your Mystical Lute Body. Kill An Undead Bard, upon death he spawns Trakanon (triggered), kill Trakanon (triggered) and loot
