@@ -6,93 +6,115 @@
       "description": "Go to Lake Rathetear and camp Lord Bergurgle. Loot Lord Bergurgle’s Crown.",
       "npc": "Lord Bergurgle",
       "location": "Lake Rathetear",
-      "item_received": "Lord Bergurgle’s Crown"
+      "items_received": ["Lord Bergurgle’s Crown"],
+      "completed": false
     },
     {
       "step_number": 2,
       "description": "Give Lord Bergurgle’s Crown to Shmendrik Lavawalker in Lake Rathetear to spawn Natasha Whitewater. Kill Shmendrik Lavawalker and loot Damaged Goblin Crown. Give Damaged Goblin Crown to Natasha Whitewater to receive Ornate Sea Shell.",
       "npc": ["Shmendrik Lavawalker", "Natasha Whitewater"],
       "location": "Lake Rathetear",
-      "items_received": ["Damaged Goblin Crown", "Ornate Sea Shell"]
+      "items_received": ["Damaged Goblin Crown", "Ornate Sea Shell"],
+      "completed": false
     },
     {
       "step_number": 3,
       "description": "Give Ornate Sea Shell to Omat Vastsea in Timorous Deep to receive Coral Statue of Tarew.",
       "npc": "Omat Vastsea",
       "location": "Timorous Deep",
-      "item_received": "Coral Statue of Tarew"
+      "items_received": ["Coral Statue of Tarew"],
+      "completed": false
     },
     {
       "step_number": 4,
       "description": "Give Coral Statue of Tarew to a seeker in Temple of Solusek Ro to spawn a plasmatic priest. Kill a plasmatic priest and loot Blood Soaked Plasmatic Priest Robe.",
       "npc": ["a seeker", "a plasmatic priest"],
       "location": "Temple of Solusek Ro",
-      "item_received": "Blood Soaked Plasmatic Priest Robe"
+      "items_received": ["Blood Soaked Plasmatic Priest Robe"],
+      "completed": false
     },
     {
       "step_number": 5,
       "description": "Kill Lord Gimblox in Solusek’s Eye and loot Lord Gimblox’s Signet Ring.",
       "npc": "Lord Gimblox",
       "location": "Solusek’s Eye",
-      "item_received": "Lord Gimblox’s Signet Ring"
+      "items_received": ["Lord Gimblox’s Signet Ring"],
+      "completed": false
     },
     {
       "step_number": 6,
       "description": "Give Blood Soaked Plasmatic Priest Robe to Omat Vastsea in Timorous Deep to receive Orb of Frozen Water. Give Lord Gimblox’s Signet Ring to Natasha Whitewater to receive Ornate Sea Shell.",
       "npc": ["Omat Vastsea", "Natasha Whitewater"],
       "location": "Timorous Deep",
-      "items_received": ["Orb of Frozen Water", "Ornate Sea Shell"]
+      "items_received": ["Orb of Frozen Water", "Ornate Sea Shell"],
+      "completed": false
     },
     {
       "step_number": 7,
       "description": "Give Ornate Sea Shell to Naxot Deepwater in Burning Woods to receive Message to Natasha.",
       "npc": "Naxot Deepwater",
       "location": "Burning Woods",
-      "item_received": "Message to Natasha"
+      "items_received": ["Message to Natasha"],
+      "completed": false
     },
     {
       "step_number": 8,
       "description": "Kill Ixiblat Fer in Burning Woods and loot Sceptre of Ixiblat Fer.",
       "npc": "Ixiblat Fer",
       "location": "Burning Woods",
-      "item_received": "Sceptre of Ixiblat Fer"
+      "items_received": ["Sceptre of Ixiblat Fer"],
+      "completed": false
     },
     {
       "step_number": 9,
       "description": "Loot Singed Scroll from Overking Bathezid in Chardok.",
       "npc": "Overking Bathezid",
       "location": "Chardok",
-      "item_received": "Singed Scroll"
+      "items_received": ["Singed Scroll"],
+      "completed": false
     },
     {
       "step_number": 10,
       "description": "Give Sceptre of Ixiblat Fer and Singed Scroll to Omat Vastsea in Timorous Deep to receive Orb of Clear Water.",
       "npc": "Omat Vastsea",
       "location": "Timorous Deep",
-      "item_received": "Orb of Clear Water"
-    },
-    {
+      "items_received": ["Orb of Clear Water"],
+      "completed": false
+    }
+  ]
+}
+{
       "step_number": 11,
       "description": "Give Message to Natasha to Natasha Whitewater in Timorous Deep to receive Shimmering Pearl.",
       "npc": "Natasha Whitewater",
       "location": "Timorous Deep",
-      "item_received": "Shimmering Pearl"
+      "items_received": ["Shimmering Pearl"],
+      "completed": false
     },
     {
       "step_number": 12,
       "description": "Give Shimmering Pearl to Zordak Ragefire in Nagafen’s Lair to spawn Zordakalicus Ragefire. Kill Zordakalicus Ragefire and loot Heart of Zordak Ragefire.",
       "npc": ["Zordak Ragefire", "Zordakalicus Ragefire"],
       "location": "Nagafen’s Lair",
-      "item_received": "Heart of Zordak Ragefire"
+      "items_received": ["Heart of Zordak Ragefire"],
+      "completed": false
     },
     {
       "step_number": 13,
       "description": "Give Heart of Zordak Ragefire to Omat Vastsea in Timorous Deep to receive Orb of Vapor.",
       "npc": "Omat Vastsea",
       "location": "Timorous Deep",
-      "item_received": "Orb of Vapor"
+      "items_received": ["Orb of Vapor"],
+      "completed": false
     },
     {
       "step_number": 14,
       "description": "Give Orb of Frozen Water, Orb of Clear Water, and Orb of Vapor to Omat Vastsea in Timorous Deep to receive Water Sprinkler of Nem Ankh.",
-      "npc": "Omat Vast
+      "npc": "Omat Vastsea",
+      "location": "Timorous Deep",
+      "items_given": ["Orb of Frozen Water", "Orb of Clear Water", "Orb of Vapor"],
+      "items_received": ["Water Sprinkler of Nem Ankh"],
+      "completed": false
+    }
+  ]
+}
