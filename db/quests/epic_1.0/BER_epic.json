@@ -13,7 +13,7 @@
       "description": "In Lake of Ill Omen, find Lingering Axefall. Give him Throwing Axe of the Spirit to receive 3x Bore Axes of the Spirit. Use these axes to kill Impervious Bloodbeast and loot Bloodbeast Tooth.",
       "npc": "Lingering Axefall",
       "location": "Lake of Ill Omen",
-      "item_received": "Bloodbeast Tooth"
+      "items_received": ["Bloodbeast Tooth"]
     },
     {
       "step_number": 3,
@@ -41,14 +41,14 @@
       "description": "Go to Dagnor’s Cauldron and find Treanik Ireblade. Give her Note for Treanik. Follow dialogue and say 'beast fights' then 'sense of strategy'. Find Praklion of the Cauldron in the water and kill him to loot Axe of the Cauldron.",
       "npc": "Treanik Ireblade",
       "location": "Dagnor’s Cauldron",
-      "item_received": "Axe of the Cauldron"
+      "items_received": ["Axe of the Cauldron"]
     },
     {
       "step_number": 7,
       "description": "Return to Keras McArik in Lake of Ill Omen. Give him Axe of the Cauldron to receive Kerasian Axe of Ire.",
       "npc": "Keras McArik",
       "location": "Lake of Ill Omen",
-      "item_received": "Kerasian Axe of Ire"
+      "items_received": ["Kerasian Axe of Ire"]
     }
   ]
 }
