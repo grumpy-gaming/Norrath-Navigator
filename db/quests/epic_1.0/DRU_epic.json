@@ -1,0 +1,124 @@
+{
+  "quest_name": "Nature Walker’s Scimitar (Druid Epic 1.0)",
+  "steps": [
+    {
+      "step_number": 1,
+      "description": "Go to Burning Woods and locate Telin Darkforest (+3240, +2880). Say 'action' to receive Worn Note. You may need to do the Muffin for Pandos quest in West Freeport to get faction if he doesn’t speak to you. You need at least amiable.",
+      "npc": "Telin Darkforest",
+      "location": "Burning Woods",
+      "item_received": "Worn Note"
+    },
+    {
+      "step_number": 2,
+      "description": "Go to Greater Faydark to Loc: +1535, +570. At this spot Faelin Bloodbriar spawns. Her PH is orc pawn. Respawn is 2.5 minutes. Clear orc pawns in the area until you find the right PH. Once found, kill the PH until Faelin Bloodbriar spawns. Give her Worn Note to receive Faelin’s Ring.",
+      "npc": "Faelin Bloodbriar",
+      "location": "Greater Faydark",
+      "item_received": "Faelin’s Ring"
+    },
+    {
+      "step_number": 3,
+      "description": "Go to Kithikor Forest and find Giz X`Tin. He roams so you’ll need to track him. Give him Faelin’s Ring to receive Dark Metal Coin. Upon turn-in Teir`Dal Reaver will spawn and attack. You do not have to kill it for anything.",
+      "npc": "Giz X`Tin",
+      "location": "Kithikor Forest",
+      "item_received": "Dark Metal Coin"
+    },
+    {
+      "step_number": 4,
+      "description": "Go back to Telin Darkforest in Burning Woods. Give him Dark Metal Coin to receive Worn Dark Metal Coin.",
+      "npc": "Telin Darkforest",
+      "location": "Burning Woods",
+      "item_received": "Worn Dark Metal Coin"
+    },
+    {
+      "step_number": 5,
+      "description": "Head to East Karana and find Althele (-3660, -1590). Give her Worn Dark Metal Coin to receive Braided Grass Amulet. This will also spawn Sionae nearby (-2590, -1600).",
+      "npc": "Althele",
+      "location": "East Karana",
+      "item_received": "Braided Grass Amulet"
+    },
+    {
+      "step_number": 6,
+      "description": "Give Sionae (-2590, -1600) Braided Grass Amulet to receive Frayed Braided Grass Amulet. This will also spawn Nuien (-3650, +300).",
+      "npc": "Sionae",
+      "location": "East Karana",
+      "item_received": "Frayed Braided Grass Amulet"
+    },
+    {
+      "step_number": 7,
+      "description": "Give Nuien (-3650, +300) Frayed Braided Grass Amulet, he will return it. This will also spawn Teloa (-3850, -2850).",
+      "npc": "Nuien",
+      "location": "East Karana",
+      "item_received": "Frayed Braided Grass Amulet"
+    },
+    {
+      "step_number": 8,
+      "description": "Give Teloa (-3850, -2850) Frayed Braided Grass Amulet. Follow her back to the 'gathering spot'. At this point Dark Elf Corruptor and two Dark Elf Reavers will spawn. Kill them and loot Fleshbound Tome from Dark Elf Corrupter.",
+      "npc": "Teloa",
+      "location": "East Karana",
+      "item_received": "Fleshbound Tome"
+    },
+    {
+      "step_number": 9,
+      "description": "Give Fleshbound Tome to Althele to receive Earth Stained Note.",
+      "npc": "Althele",
+      "location": "East Karana",
+      "item_received": "Earth Stained Note"
+    },
+    {
+      "step_number": 10,
+      "description": "Go to Misty Thicket and track down Ella Foodcrafter. Give her Earth Stained Note to receive Shiny Tin Bowl.",
+      "npc": "Ella Foodcrafter",
+      "location": "Misty Thicket",
+      "item_received": "Shiny Tin Bowl"
+    },
+    {
+      "step_number": 11,
+      "description": "Forage Chilled Tundra Root (Everfrost), Ripened Heartfruit (Greater Faydark), Speckled Molded Mushroom (Innothule), Sweetened Mudroot (Misty Thicket).",
+      "npc": "N/A",
+      "location": ["Everfrost", "Greater Faydark", "Innothule", "Misty Thicket"],
+      "items_received": ["Chilled Tundra Root", "Ripened Heartfruit", "Speckled Molded Mushroom", "Sweetened Mudroot"]
+    },
+    {
+      "step_number": 12,
+      "description": "Give Shiny Tin Bowl and foraged items to Ella Foodcrafter to receive Hardened Mixture.",
+      "npc": "Ella Foodcrafter",
+      "location": "Misty Thicket",
+      "item_received": "Hardened Mixture"
+    },
+    {
+      "step_number": 13,
+      "description": "Go to Plane of Growth and find Xanuusus. Give him Hardened Mixture to receive Softly Glowing Stone.",
+      "npc": "Xanuusus",
+      "location": "Plane of Growth",
+      "item_received": "Softly Glowing Stone"
+    },
+    {
+      "step_number": 14,
+      "description": "Go to Emerald Jungle and find Ulump Pujluk. Give him Softly Glowing Stone to spawn corrupted gorilla. Kill corrupted gorilla and loot Green Tree Bark.",
+      "npc": "Ulump Pujluk",
+      "location": "Emerald Jungle",
+      "item_received": "Green Tree Bark"
+    },
+    {
+      "step_number": 15,
+      "description": "Give Green Tree Bark to Xanuusus in Plane of Growth to receive Pulsing Green Stone.",
+      "npc": "Xanuusus",
+      "location": "Plane of Growth",
+      "item_received": "Pulsing Green Stone"
+    },
+    {
+      "step_number": 16,
+      "description": "Go to City of Mist and kill black reaver to loot Jade Reaver.",
+      "npc": "black reaver",
+      "location": "City of Mist",
+      "item_received": "Jade Reaver"
+    },
+    {
+      "step_number": 17,
+      "description": "Give Jade Reaver and Pulsing Green Stone to Xanuusus in Plane of Growth to receive Nature Walker’s Scimitar.",
+      "npc": "Xanuusus",
+      "location": "Plane of Growth",
+      "item_received": "Nature Walker’s Scimitar"
+    }
+  ]
+}
