@@ -1,6 +1,6 @@
 # **Starting Guide**  
 
-<img src="/assets/images/pic_004.jpg" alt="Norrath Navigator Logo" width="720" align="canter">  
+<img src="/assets/images/pic_004.jpg" alt="Norrath Navigator Logo" width="480" align="canter">  
 
 ## **Overview**  
 This guide is a **quick reference** for how to level up the most efficient. It can be completed solo or with help—progression unlocks go faster with assistance from a higher-level player.  
