@@ -1,0 +1,61 @@
+{
+  "quest_name": "Fiery Defender (Paladin Epic 1.0)",
+  "steps": [
+    {
+      "step_number": 1,
+      "description": "Find Kirak Vil in Nektulos Forest, say 'I am a paladin', kill him and loot Tainted Darksteel Shield.",
+      "npc": "Kirak Vil",
+      "location": "Nektulos Forest",
+      "item_received": "Tainted Darksteel Shield"
+    },
+    {
+      "step_number": 2,
+      "description": "Kill Keeper of The Tombs in The Hole and loot Tainted Darksteel Sword.",
+      "npc": "Keeper of The Tombs",
+      "location": "The Hole",
+      "item_received": "Tainted Darksteel Sword"
+    },
+    {
+      "step_number": 3,
+      "description": "Kill thought destroyer in Plane of Hate and loot Tainted Darksteel Breastplate.",
+      "npc": "thought destroyer",
+      "location": "Plane of Hate",
+      "item_received": "Tainted Darksteel Breastplate"
+    },
+    {
+      "step_number": 4,
+      "description": "Find Jark in North Kaladim, say 'I will get your dinner'. Find Nella Stonebraids, say 'do you have jark’s dinner' to receive Cold Plate of Beef and Bread. Give Cold Plate of Beef and Bread to Jark to receive Pure Crystal.",
+      "npc": ["Jark", "Nella Stonebraids"],
+      "location": "North Kaladim",
+      "items_received": ["Cold Plate of Beef and Bread", "Pure Crystal"]
+    },
+    {
+      "step_number": 5,
+      "description": "Give Elia the Pure the Tainted Darksteel Shield in Northern Felwithe to receive Gleaming Crested Shield.",
+      "npc": "Elia the Pure",
+      "location": "Northern Felwithe",
+      "item_received": "Gleaming Crested Shield"
+    },
+    {
+      "step_number": 6,
+      "description": "Find peasant woman in East Freeport, say 'I will take it to him' to receive Bucket of Water. Give Bucket of Water to Joshua to receive Bucket of Pure Water.",
+      "npc": ["peasant woman", "Joshua"],
+      "location": "East Freeport",
+      "items_received": ["Bucket of Water", "Bucket of Pure Water"]
+    },
+    {
+      "step_number": 7,
+      "description": "Give Reklon Gnallen Bucket of Pure Water and Tainted Darksteel Sword in Erudin to receive Gleaming Crested Sword. Give Reklon Gnallen Pure Crystal and Tainted Darksteel Breastplate to receive Gleaming Crested Breastplate. Give Reklon Gnallen Gleaming Crested Shield, Gleaming Crested Sword, Gleaming Crested Breastplate to receive Mark of Atonement.",
+      "npc": "Reklon Gnallen",
+      "location": "Erudin",
+      "items_received": ["Gleaming Crested Sword", "Gleaming Crested Breastplate", "Mark of Atonement"]
+    },
+    {
+      "step_number": 8,
+      "description": "Give Fiery Avenger and Mark of Atonement to Irak Altil in Plane of Fear to receive Fiery Defender.",
+      "npc": "Irak Altil",
+      "location": "Plane of Fear",
+      "item_received": "Fiery Defender"
+    }
+  ]
+}
