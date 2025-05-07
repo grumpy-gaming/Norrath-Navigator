@@ -1,4 +1,4 @@
-<img src="/assets/images/pic_001.jpg" alt="Norrath Navigator Logo" width="720" align="center">  
+<img src="/assets/images/pic_001.jpg" alt="Norrath Navigator Logo" width="360" align="center">  
 
 # **License**  
 
