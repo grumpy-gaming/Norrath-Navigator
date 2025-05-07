@@ -1,5 +1,7 @@
 # Norrath Navigator Roadmap  
 
+<img src="/assets/images/pic_002.jpg" alt="Norrath Navigator Logo" width="720" align="canter">
+
 ## **Phase 1: Foundation** ✅ *(Completed)*  
 ### Goals:  
 - Establish core functionality and documentation.  
