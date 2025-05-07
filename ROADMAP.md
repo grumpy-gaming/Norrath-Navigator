@@ -1,50 +1,51 @@
-# Norrath Navigator Roadmap
+# Norrath Navigator Roadmap  
 
-## **Phase 1: Foundation**
-### Goals:
-- Establish core functionality and documentation.
-- Lay the groundwork for epic quest tracking.
-### Milestones:
-- ✅ Develop the Bard Epic 1.0 checklist (In Progress).
-- ✅ Set up foundational files (`README.md`, `SETUP.md`, `CONTRIBUTING.md`).
-- ✅ Refine folder structure (`src/`, `assets/`, `docs/`).
+## **Phase 1: Foundation** ✅ *(Completed)*  
+### Goals:  
+- Establish core functionality and documentation.  
+- Lay the groundwork for epic quest tracking.  
+### Milestones:  
+- ✅ Set up foundational files (`README.md`, `SETUP.md`, `CONTRIBUTING.md`).  
+- ✅ Refined folder structure (`src/`, `assets/`, `docs/`).  
 
----
+---  
 
-## **Phase 2: Core Features**
-### Goals:
-- Add interactive features to enhance user experience.
-### Milestones:
-- 🚀 Implement the **Quest Tracker**:
-  - Class-specific quest checklists (like Bard Epic 1.0).
-  - Progress tracking (with visual indicators).
-- 🚀 Design interactive **Zone Maps**:
-  - Add map pins for NPC locations and epic steps.
+## **Phase 2: Core Features** 🚀 *(In Progress)*  
+### Goals:  
+- Enhance interactivity and tracking.  
+### Milestones:  
+- 🚀 Implement the **Quest Tracker**:  
+  - Progress tracking with visual indicators.  
+- 🚀 Design interactive **Zone Maps** *(Next Up)*:  
+  - Upload and integrate map assets.  
+  - Add location markers for NPCs and epic quest steps.  
 
----
+---  
 
-## **Phase 3: Community Features**
-### Goals:
-- Build tools to engage and support the EQEmu community.
-### Milestones:
-- 🛠 Add **Server Hub**:
-  - Connect players to Discord links, announcements, and guides.
-- 🛠 Introduce community-contributed content:
-  - Allow users to suggest or add leveling guides.
+## **Phase 3: Community Features** 🔥 *(Planned)*  
+### Goals:  
+- Build tools for player engagement and support.  
+### Milestones:  
+- 🛠 Add **Server Hub**:  
+  - Connect players to Discord links, announcements, and guides.  
+- 🛠 Introduce **community-driven content**:  
+  - Enable user suggestions for quest improvements and leveling guides.  
 
----
+---  
 
-## **Phase 4: Future Enhancements**
-### Goals:
-- Expand app functionality and compatibility.
-### Milestones:
-- 🌌 Integrate advanced features:
-  - Multi-character alt management.
-  - Inventory search tools.
-- 🌌 Explore cross-server compatibility:
-  - Support broader EQEmu server ecosystems.
+## **Phase 4: Future Enhancements** 🌌 *(Ideas & Expansions)*  
+### Goals:  
+- Extend functionality and accessibility.  
+### Milestones:  
+- 🌌 Integrate **multi-character alt tracking**.  
+- 🌌 Develop **inventory search tools** for gear lookup.  
+- 🌌 Explore **cross-server compatibility** to support additional EQEmu servers.  
 
----
+---  
 
-### **Additional Notes:**
-- This roadmap evolves as development progresses. Feedback and collaboration are welcome!
+### **Next Steps:**  
+🗺 **Upload and integrate maps** *(Today’s focus)*  
+📜 **Resume epic quest tracking later** *(Druid Epic next)*  
+🔧 **Expand interactive elements based on community feedback**  
+
+This roadmap **evolves** as development progresses—feedback is always welcome! 🚀  
