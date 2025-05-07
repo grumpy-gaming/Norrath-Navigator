@@ -1,6 +1,6 @@
 # Norrath Navigator  
 
-<img src="assets/images/pic_002.jpg" alt="Norrath Navigator Logo" width="360" align="center">  
+<img src="assets/images/pic_002.jpg" alt="Norrath Navigator Logo" width="480" align="center">  
 
 ## **Overview**  
 Welcome to **Norrath Navigator**, a companion app designed to enhance the **EQEmu** experience (currently optimized for **The Heroes' Journey EQEmu Server**).  
