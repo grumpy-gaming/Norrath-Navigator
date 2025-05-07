@@ -1,5 +1,7 @@
-document.addEventListener("DOMContentLoaded", function() {
-    fetch("../db/quests/quests.json")
+function loadEpicQuest(className) {
+    const filePath = `../db/quests/epic_1.0/${className}_epic.json`;
+
+    fetch(filePath)
         .then(response => {
             if (!response.ok) {
                 throw new Error("Failed to load quest data");
@@ -15,10 +17,10 @@ document.addEventListener("DOMContentLoaded", function() {
             });
 
             questList += "</ul>";
-            questSection.innerHTML += questList;
+            questSection.innerHTML = questList;
         })
         .catch(error => {
             console.error("Error loading quest data:", error);
             document.getElementById("quests").innerHTML = "<p>Failed to load quest data.</p>";
         });
-});
+}
