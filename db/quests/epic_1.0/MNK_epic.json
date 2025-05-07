@@ -1,0 +1,68 @@
+{
+  "quest_name": "Celestial Fists (Monk Epic 1.0)",
+  "steps": [
+    {
+      "step_number": 1,
+      "description": "Obtain Robe of the Lost Circle by either killing Brother Zephyl in Rathe Mountains or Brother Qwinn in South Karana.",
+      "npc": ["Brother Zephyl", "Brother Qwinn"],
+      "location": ["Rathe Mountains", "South Karana"],
+      "item_received": "Robe of the Lost Circle"
+    },
+    {
+      "step_number": 2,
+      "description": "Obtain Metal Pipe (Fi) by killing an iksar betrayer in Chardok.",
+      "npc": "iksar betrayer",
+      "location": "Chardok",
+      "item_received": "Metal Pipe (Fi)"
+    },
+    {
+      "step_number": 3,
+      "description": "Obtain Metal Pipe (Zan) by killing a drolvarg pawbuster in Karnor’s Castle.",
+      "npc": "drolvarg pawbuster",
+      "location": "Karnor’s Castle",
+      "item_received": "Metal Pipe (Zan)"
+    },
+    {
+      "step_number": 4,
+      "description": "Combine Robe of the Lost Circle, Metal Pipe (Fi), and Metal Pipe (Zan) in a container to create Robe of the Whistling Fists.",
+      "npc": "N/A",
+      "location": "N/A",
+      "item_received": "Robe of the Whistling Fists"
+    },
+    {
+      "step_number": 5,
+      "description": "Obtain Charred Scale by killing Eejag in Lavastorm Mountains.",
+      "npc": "Eejag",
+      "location": "Lavastorm Mountains",
+      "item_received": "Charred Scale"
+    },
+    {
+      "step_number": 6,
+      "description": "Obtain Immortals by killing named mobs in Skyfire Mountains.",
+      "npc": "named mobs",
+      "location": "Skyfire Mountains",
+      "item_received": "Immortals"
+    },
+    {
+      "step_number": 7,
+      "description": "Combine Robe of the Whistling Fists, Charred Scale, and Immortals in a container to create Demon Fangs.",
+      "npc": "N/A",
+      "location": "N/A",
+      "item_received": "Demon Fangs"
+    },
+    {
+      "step_number": 8,
+      "description": "Go to Trakanon's Teeth and find a mad Kaiaren. Give him Demon Fangs to receive Book of Celestial Fists.",
+      "npc": "mad Kaiaren",
+      "location": "Trakanon's Teeth",
+      "item_received": "Book of Celestial Fists"
+    },
+    {
+      "step_number": 9,
+      "description": "Go to Trakanon's Teeth and find a sane Kaiaren. Give him Book of Celestial Fists to receive Celestial Fists.",
+      "npc": "sane Kaiaren",
+      "location": "Trakanon's Teeth",
+      "item_received": "Celestial Fists"
+    }
+  ]
+}
