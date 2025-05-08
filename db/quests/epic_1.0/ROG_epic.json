@@ -1,68 +1,61 @@
 {
-  "quest_name": "Ragebringer (Rogue Epic 1.0)",
+  "quest_name": "Rogue Epic 1.0 - Ragebringer",
   "steps": [
     {
       "step_number": 1,
-      "description": "Go to North Kaladim and pickpocket Founy Jestands until you receive Stained Parchment Top.",
-      "npc": "Founy Jestands",
-      "location": "North Kaladim",
-      "item_received": "Stained Parchment Top"
+      "description": "Speak to Malka Rale in Freeport to begin the epic quest.",
+      "npc": "Malka Rale",
+      "location": "Freeport",
+      "items_received": [],
+      "completed": false
     },
     {
       "step_number": 2,
-      "description": "Go to Neriak Third Gate and pickpocket Tani N`Mar until you receive Stained Parchment Bottom.",
-      "npc": "Tani N`Mar",
-      "location": "Neriak Third Gate",
-      "item_received": "Stained Parchment Bottom"
+      "description": "Kill Stanos Herkanor in Highpass Hold and loot the Stanos' Head.",
+      "npc": "Stanos Herkanor",
+      "location": "Highpass Hold",
+      "items_received": ["Stanos' Head"],
+      "completed": false
     },
     {
       "step_number": 3,
-      "description": "Go to Plane of Hate and loot Book of Souls (ground spawn at +171, -326 on top of a dresser).",
-      "npc": "N/A",
-      "location": "Plane of Hate",
-      "item_received": "Book of Souls"
+      "description": "Speak to Vilnius the Small in West Freeport. Give him Stanos' Head to receive a Sealed Letter.",
+      "npc": "Vilnius the Small",
+      "location": "West Freeport",
+      "items_received": ["Sealed Letter"],
+      "completed": false
     },
     {
       "step_number": 4,
-      "description": "Buy 2x Bottle of Milk from a Baking Vendor (Klen Ironstove, Eastern Trade Building, PoK | Loc: -84, +239).",
-      "npc": "Klen Ironstove",
-      "location": "Plane of Knowledge",
-      "items_received": ["Bottle of Milk"]
+      "description": "Give Sealed Letter to Eldreth in Kithicor Forest to receive a Dark Cloak of the Sky.",
+      "npc": "Eldreth",
+      "location": "Kithicor Forest",
+      "items_received": ["Dark Cloak of the Sky"],
+      "completed": false
     },
     {
       "step_number": 5,
-      "description": "Go to Highpass Hold and speak to Anson McBale. He is in a hidden area of the zone that is only accessible by an underwater tunnel. Give him Stained Parchment Top, Stained Parchment Bottom, Book of Souls, and 2x Bottle of Milk to receive Sealed Note.",
-      "npc": "Anson McBale",
-      "location": "Highpass Hold",
-      "items_received": ["Sealed Note"]
+      "description": "Kill Founy Jestands in Kithicor Forest and loot a Jagged Diamond Dagger.",
+      "npc": "Founy Jestands",
+      "location": "Kithicor Forest",
+      "items_received": ["Jagged Diamond Dagger"],
+      "completed": false
     },
     {
       "step_number": 6,
-      "description": "Go to Kithicor Forest and find Renux Herkanor. Give her Sealed Note to spawn Renux Herkanor. Kill her and loot Jagged Diamond Dagger.",
-      "npc": "Renux Herkanor",
-      "location": "Kithicor Forest",
-      "item_received": "Jagged Diamond Dagger"
+      "description": "Kill Tani N'Mar in Neriak and loot a Cazic Quill.",
+      "npc": "Tani N'Mar",
+      "location": "Neriak",
+      "items_received": ["Cazic Quill"],
+      "completed": false
     },
     {
       "step_number": 7,
-      "description": "Go to Plane of Hate and kill Maestro of Rancor to loot Maestro's Symphony Page 24 Top.",
-      "npc": "Maestro of Rancor",
-      "location": "Plane of Hate",
-      "item_received": "Maestro's Symphony Page 24 Top"
-    },
-    {
-      "step_number": 8,
-      "description": "Go to Plane of Sky and kill Keeper of Souls to loot Keeper's Soul.",
-      "npc": "Keeper of Souls",
-      "location": "Plane of Sky",
-      "item_received": "Keeper's Soul"
-    },
-    {
-      "step_number": 9,
-      "description": "Go to East Freeport and find Eldreth. Give him Jagged Diamond Dagger, Maestro's Symphony Page 24 Top, and Keeper's Soul to receive Ragebringer.",
+      "description": "Give Jagged Diamond Dagger and Cazic Quill to Eldreth in Kithicor Forest to receive Rogue Epic 1.0 - Ragebringer.",
       "npc": "Eldreth",
-      "location": "East Freeport",
-      "items_received": ["Ragebringer"]
+      "location": "Kithicor Forest",
+      "items_received": ["Ragebringer"],
+      "completed": false
     }
   ]
 }
