@@ -1,40 +1,69 @@
 {
-  "quest_name": "Staff of the Four (Wizard Epic 1.0)",
+  "quest_name": "Wizard Epic 1.0 - Staff of the Four",
   "steps": [
     {
       "step_number": 1,
-      "description": "Go to Plane of Sky and kill the Keeper of Souls to loot the Essence of a Ghost.",
-      "npc": "Keeper of Souls",
-      "location": "Plane of Sky",
-      "item_received": "Essence of a Ghost"
+      "description": "Speak to Arantir Karondor in Qeynos to begin the epic quest.",
+      "npc": "Arantir Karondor",
+      "location": "Qeynos",
+      "items_received": [],
+      "completed": false
     },
     {
       "step_number": 2,
-      "description": "Go to Plane of Fear and kill the Dread, Fright, and Terror until you loot the Essence of a Vampire.",
-      "npc": ["Dread", "Fright", "Terror"],
-      "location": "Plane of Fear",
-      "item_received": "Essence of a Vampire"
+      "description": "Kill Venril Sathir in Karnor’s Castle and loot the Arantir’s Scroll.",
+      "npc": "Venril Sathir",
+      "location": "Karnor’s Castle",
+      "items_received": ["Arantir’s Scroll"],
+      "completed": false
     },
     {
       "step_number": 3,
-      "description": "Go to Plane of Hate and kill the Maestro of Rancor to loot the Essence of a Shadow.",
-      "npc": "Maestro of Rancor",
-      "location": "Plane of Hate",
-      "item_received": "Essence of a Shadow"
+      "description": "Give Arantir’s Scroll to Arantir Karondor in Qeynos to receive the Rune of Astral.",
+      "npc": "Arantir Karondor",
+      "location": "Qeynos",
+      "items_received": ["Rune of Astral"],
+      "completed": false
     },
     {
       "step_number": 4,
-      "description": "Go to Kithicor Forest and kill General V`ghera to loot the Essence of a Phantom.",
-      "npc": "General V`ghera",
-      "location": "Kithicor Forest",
-      "item_received": "Essence of a Phantom"
+      "description": "Kill Cazic Thule in Plane of Fear and loot the Rune of Elemental.",
+      "npc": "Cazic Thule",
+      "location": "Plane of Fear",
+      "items_received": ["Rune of Elemental"],
+      "completed": false
     },
     {
       "step_number": 5,
-      "description": "Go to East Freeport and find Arantir Karondor. Give him Essence of a Ghost, Essence of a Vampire, Essence of a Shadow, and Essence of a Phantom to receive Staff of the Four.",
+      "description": "Kill Phinigel Autropos in Kedge Keep and loot the Rune of Energy.",
+      "npc": "Phinigel Autropos",
+      "location": "Kedge Keep",
+      "items_received": ["Rune of Energy"],
+      "completed": false
+    },
+    {
+      "step_number": 6,
+      "description": "Kill Trakanon in Old Sebilis and loot the Rune of Power.",
+      "npc": "Trakanon",
+      "location": "Old Sebilis",
+      "items_received": ["Rune of Power"],
+      "completed": false
+    },
+    {
+      "step_number": 7,
+      "description": "Combine Rune of Astral, Rune of Elemental, Rune of Energy, and Rune of Power in the Wizard’s Spellbook to create the Completed Spellbook.",
+      "npc": "N/A",
+      "location": "N/A",
+      "items_received": ["Completed Spellbook"],
+      "completed": false
+    },
+    {
+      "step_number": 8,
+      "description": "Give Completed Spellbook to Arantir Karondor in Qeynos to receive the Staff of the Four.",
       "npc": "Arantir Karondor",
-      "location": "East Freeport",
-      "items_received": ["Staff of the Four"]
+      "location": "Qeynos",
+      "items_received": ["Staff of the Four"],
+      "completed": false
     }
   ]
 }
