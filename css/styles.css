@@ -47,9 +47,9 @@ nav ul li a {
 
 /* Banner */
 .banner {
-    position: relative;
-    z-index: 5;
-    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Main Content */
