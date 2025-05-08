@@ -1,9 +1,13 @@
+/* Base Styles */
 body {
+    background-color: #181818;
+    color: #e0e0e0;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Header */
 header {
     background-color: #333;
     color: white;
@@ -11,11 +15,12 @@ header {
     text-align: center;
 }
 
+/* Logo */
 .logo {
     width: 150px;
 }
 
-/* ✅ Fixed Nav Syntax & Layering */
+/* Navigation */
 nav {
     position: fixed;
     top: 0;
@@ -40,21 +45,27 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* ✅ Ensuring Banner Is Below Nav */
+/* Banner */
 .banner {
     position: relative;
-    z-index: 5; /* Keeps it correctly layered */
-    margin-top: 60px; /* Adjusts spacing so navbar doesn’t overlap */
+    z-index: 5;
+    margin-top: 60px;
 }
 
+/* Main Content */
 main {
     padding: 20px;
 }
 
+/* Sections with Contrast */
 section {
+    background-color: #222;
+    padding: 15px;
+    border-radius: 5px;
     margin-bottom: 20px;
 }
 
+/* Footer */
 footer {
     background-color: #333;
     color: white;
