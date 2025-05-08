@@ -1,54 +1,153 @@
 {
-  "quest_name": "Spear of Fate (Shaman Epic 1.0)",
+  "quest_name": "Shaman Epic 1.0 - Spear of Fate",
   "steps": [
     {
       "step_number": 1,
-      "description": "Go to Lake of Ill Omen and find the Spirit Sentinel. Say 'I will help' to receive the Test of Patience.",
-      "npc": "Spirit Sentinel",
-      "location": "Lake of Ill Omen",
-      "item_received": "Test of Patience"
+      "description": "Speak to Srafen the Prophet in West Freeport to begin the epic quest.",
+      "npc": "Srafen the Prophet",
+      "location": "West Freeport",
+      "items_received": [],
+      "completed": false
     },
     {
       "step_number": 2,
-      "description": "Go to Emerald Jungle and find the Spirit Sentinel. Say 'I will help' to receive the Test of Wisdom.",
+      "description": "Kill a spirit sentinel in The Overthere and loot the Lost Scroll.",
       "npc": "Spirit Sentinel",
-      "location": "Emerald Jungle",
-      "item_received": "Test of Wisdom"
+      "location": "The Overthere",
+      "items_received": ["Lost Scroll"],
+      "completed": false
     },
     {
       "step_number": 3,
-      "description": "Go to Field of Bone and find the Spirit Sentinel. Say 'I will help' to receive the Test of Strength.",
-      "npc": "Spirit Sentinel",
-      "location": "Field of Bone",
-      "item_received": "Test of Strength"
+      "description": "Give Lost Scroll to Srafen the Prophet in West Freeport to receive the Ritual Token.",
+      "npc": "Srafen the Prophet",
+      "location": "West Freeport",
+      "items_received": ["Ritual Token"],
+      "completed": false
     },
     {
       "step_number": 4,
-      "description": "Complete the Test of Patience by waiting for the Spirit Sentinel to give you the next task.",
-      "npc": "Spirit Sentinel",
-      "location": "Lake of Ill Omen",
-      "item_received": "Next Task"
+      "description": "Kill a corrupted shaman in West Karana and loot the Shaman’s Totem.",
+      "npc": "Corrupted Shaman",
+      "location": "West Karana",
+      "items_received": ["Shaman’s Totem"],
+      "completed": false
     },
     {
       "step_number": 5,
-      "description": "Complete the Test of Wisdom by answering the Spirit Sentinel's questions correctly.",
-      "npc": "Spirit Sentinel",
-      "location": "Emerald Jungle",
-      "item_received": "Next Task"
+      "description": "Give Shaman’s Totem to Srafen the Prophet in West Freeport to receive the Token of the Ancients.",
+      "npc": "Srafen the Prophet",
+      "location": "West Freeport",
+      "items_received": ["Token of the Ancients"],
+      "completed": false
     },
     {
       "step_number": 6,
-      "description": "Complete the Test of Strength by defeating the enemies the Spirit Sentinel sends you.",
-      "npc": "Spirit Sentinel",
-      "location": "Field of Bone",
-      "item_received": "Next Task"
+      "description": "Kill a rogue elemental in Skyfire Mountains and loot the Elemental Shard.",
+      "npc": "Rogue Elemental",
+      "location": "Skyfire Mountains",
+      "items_received": ["Elemental Shard"],
+      "completed": false
     },
     {
       "step_number": 7,
-      "description": "Return to the Spirit Sentinel in Lake of Ill Omen with the completed tasks to receive the Spear of Fate.",
-      "npc": "Spirit Sentinel",
-      "location": "Lake of Ill Omen",
-      "item_received": "Spear of Fate"
+      "description": "Give Elemental Shard to Srafen the Prophet in West Freeport to receive the Blessed Totem.",
+      "npc": "Srafen the Prophet",
+      "location": "West Freeport",
+      "items_received": ["Blessed Totem"],
+      "completed": false
+    },
+    {
+      "step_number": 8,
+      "description": "Kill a spectral seeker in Plane of Hate and loot the Spirit Essence.",
+      "npc": "Spectral Seeker",
+      "location": "Plane of Hate",
+      "items_received": ["Spirit Essence"],
+      "completed": false
+    },
+    {
+      "step_number": 9,
+      "description": "Give Spirit Essence to Srafen the Prophet in West Freeport to receive the Spiritbinder.",
+      "npc": "Srafen the Prophet",
+      "location": "West Freeport",
+      "items_received": ["Spiritbinder"],
+      "completed": false
+    },
+    {
+      "step_number": 10,
+      "description": "Kill Lord Rak’Ashiir in City of Mist and loot the Spear of Fate.",
+      "npc": "Lord Rak’Ashiir",
+      "location": "City of Mist",
+      "items_received": ["Spear of Fate"],
+      "completed": false
+    }
+  ]
+}
+{
+  "steps": [
+    {
+      "step_number": 11,
+      "description": "Kill a corrupted shaman in West Karana and loot the Corrupted Totem.",
+      "npc": "Corrupted Shaman",
+      "location": "West Karana",
+      "items_received": ["Corrupted Totem"],
+      "completed": false
+    },
+    {
+      "step_number": 12,
+      "description": "Give Corrupted Totem to Srafen the Prophet in West Freeport to receive the Blessed Shaman Totem.",
+      "npc": "Srafen the Prophet",
+      "location": "West Freeport",
+      "items_received": ["Blessed Shaman Totem"],
+      "completed": false
+    },
+    {
+      "step_number": 13,
+      "description": "Kill a rogue elemental in Skyfire Mountains and loot the Elemental Essence.",
+      "npc": "Rogue Elemental",
+      "location": "Skyfire Mountains",
+      "items_received": ["Elemental Essence"],
+      "completed": false
+    },
+    {
+      "step_number": 14,
+      "description": "Give Elemental Essence to Srafen the Prophet in West Freeport to receive the Spiritbinder Totem.",
+      "npc": "Srafen the Prophet",
+      "location": "West Freeport",
+      "items_received": ["Spiritbinder Totem"],
+      "completed": false
+    },
+    {
+      "step_number": 15,
+      "description": "Kill a spectral seeker in Plane of Hate and loot the Ritual Stone.",
+      "npc": "Spectral Seeker",
+      "location": "Plane of Hate",
+      "items_received": ["Ritual Stone"],
+      "completed": false
+    },
+    {
+      "step_number": 16,
+      "description": "Give Ritual Stone to Srafen the Prophet in West Freeport to receive the Token of the Ancients.",
+      "npc": "Srafen the Prophet",
+      "location": "West Freeport",
+      "items_received": ["Token of the Ancients"],
+      "completed": false
+    },
+    {
+      "step_number": 17,
+      "description": "Kill Lord Rak’Ashiir in City of Mist and loot the Completed Spear of Fate.",
+      "npc": "Lord Rak’Ashiir",
+      "location": "City of Mist",
+      "items_received": ["Completed Spear of Fate"],
+      "completed": false
+    },
+    {
+      "step_number": 18,
+      "description": "Give Completed Spear of Fate to Srafen the Prophet in West Freeport to receive the Shaman Epic 1.0 - Spear of Fate.",
+      "npc": "Srafen the Prophet",
+      "location": "West Freeport",
+      "items_received": ["Spear of Fate"],
+      "completed": false
     }
   ]
 }
