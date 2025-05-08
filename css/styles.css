@@ -54,6 +54,8 @@ nav ul li a {
 
 /* Main Content */
 main {
+    margin: 0 auto;
+    max-width: 1200px; /* Adjust width as needed */
     padding: 20px;
 }
 
