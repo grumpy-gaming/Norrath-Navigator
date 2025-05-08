@@ -1,40 +1,137 @@
 {
-  "quest_name": "Innoruuk's Curse (Shadow Knight Epic 1.0)",
+  "quest_name": "Shadow Knight Epic 1.0 - Innoruuk’s Curse",
   "steps": [
     {
       "step_number": 1,
-      "description": "Go to City of Mist and kill Black Reaver until you loot the Soul Leech, Dark Sword of Blood.",
-      "npc": "Black Reaver",
-      "location": "City of Mist",
-      "item_received": "Soul Leech, Dark Sword of Blood"
+      "description": "Speak to Kurron Ni in The Overthere to begin the epic quest.",
+      "npc": "Kurron Ni",
+      "location": "The Overthere",
+      "items_received": [],
+      "completed": false
     },
     {
       "step_number": 2,
-      "description": "Go to Plane of Fear and kill the Dread, Fright, and Terror until you loot the Blade of Abrogation.",
-      "npc": ["Dread", "Fright", "Terror"],
-      "location": "Plane of Fear",
-      "item_received": "Blade of Abrogation"
+      "description": "Kill an undead knight in City of Mist and loot an Unholy Symbol of Innoruuk.",
+      "npc": "Undead Knight",
+      "location": "City of Mist",
+      "items_received": ["Unholy Symbol of Innoruuk"],
+      "completed": false
     },
     {
       "step_number": 3,
-      "description": "Go to Kithicor Forest and kill General V`ghera to loot the Decrepit Hide.",
-      "npc": "General V`ghera",
-      "location": "Kithicor Forest",
-      "item_received": "Decrepit Hide"
+      "description": "Give the Unholy Symbol of Innoruuk to Kurron Ni in The Overthere to receive an Ancient Coin.",
+      "npc": "Kurron Ni",
+      "location": "The Overthere",
+      "items_received": ["Ancient Coin"],
+      "completed": false
     },
     {
       "step_number": 4,
-      "description": "Go to Plane of Hate and kill the Maestro of Rancor to loot the Shattered Emerald of Corruption.",
-      "npc": "Maestro of Rancor",
-      "location": "Plane of Hate",
-      "item_received": "Shattered Emerald of Corruption"
+      "description": "Give the Ancient Coin to Marl Kastane in Toxxulia Forest to receive a Tattered Parchment.",
+      "npc": "Marl Kastane",
+      "location": "Toxxulia Forest",
+      "items_received": ["Tattered Parchment"],
+      "completed": false
     },
     {
       "step_number": 5,
-      "description": "Go to East Freeport and find Kazen F`Lakk. Give him Soul Leech, Dark Sword of Blood, Blade of Abrogation, Decrepit Hide, and Shattered Emerald of Corruption to receive Innoruuk's Curse.",
-      "npc": "Kazen F`Lakk",
-      "location": "East Freeport",
-      "items_received": ["Innoruuk's Curse"]
+      "description": "Kill Rilgor Plegnog in Ak’Anon and loot Dark Metal Coin.",
+      "npc": "Rilgor Plegnog",
+      "location": "Ak’Anon",
+      "items_received": ["Dark Metal Coin"],
+      "completed": false
+    },
+    {
+      "step_number": 6,
+      "description": "Give Dark Metal Coin to Marl Kastane in Toxxulia Forest to receive a Soulcase.",
+      "npc": "Marl Kastane",
+      "location": "Toxxulia Forest",
+      "items_received": ["Soulcase"],
+      "completed": false
+    },
+    {
+      "step_number": 7,
+      "description": "Kill an undead knight in City of Mist and loot an Unholy Symbol of Innoruuk.",
+      "npc": "Undead Knight",
+      "location": "City of Mist",
+      "items_received": ["Unholy Symbol of Innoruuk"],
+      "completed": false
+    },
+    {
+      "step_number": 8,
+      "description": "Give Soulcase and Unholy Symbol of Innoruuk to Marl Kastane in Toxxulia Forest to receive Darkforge Armor.",
+      "npc": "Marl Kastane",
+      "location": "Toxxulia Forest",
+      "items_received": ["Darkforge Armor"],
+      "completed": false
+    },
+    {
+      "step_number": 9,
+      "description": "Kill Cazic Thule in Plane of Fear and loot Heart of Innoruuk.",
+      "npc": "Cazic Thule",
+      "location": "Plane of Fear",
+      "items_received": ["Heart of Innoruuk"],
+      "completed": false
+    },
+    {
+      "step_number": 10,
+      "description": "Give Darkforge Armor and Heart of Innoruuk to Marl Kastane in Toxxulia Forest to receive 1st Piece of Innoruuk’s Curse.",
+      "npc": "Marl Kastane",
+      "location": "Toxxulia Forest",
+      "items_received": ["1st Piece of Innoruuk’s Curse"],
+      "completed": false
+    }
+  ]
+}
+{
+  "steps": [
+    {
+      "step_number": 11,
+      "description": "Kill an enraged shadow in City of Mist and loot the Dark Shroud.",
+      "npc": "Enraged Shadow",
+      "location": "City of Mist",
+      "items_received": ["Dark Shroud"],
+      "completed": false
+    },
+    {
+      "step_number": 12,
+      "description": "Kill a reanimated hand in City of Mist and loot the Reanimated Hand.",
+      "npc": "Reanimated Hand",
+      "location": "City of Mist",
+      "items_received": ["Reanimated Hand"],
+      "completed": false
+    },
+    {
+      "step_number": 13,
+      "description": "Kill a spectral guardian in Plane of Hate and loot the Corrupted Ghoulbane.",
+      "npc": "Spectral Guardian",
+      "location": "Plane of Hate",
+      "items_received": ["Corrupted Ghoulbane"],
+      "completed": false
+    },
+    {
+      "step_number": 14,
+      "description": "Give Dark Shroud, Reanimated Hand, and Corrupted Ghoulbane to Marl Kastane in Toxxulia Forest to receive the 2nd Piece of Innoruuk’s Curse.",
+      "npc": "Marl Kastane",
+      "location": "Toxxulia Forest",
+      "items_received": ["2nd Piece of Innoruuk’s Curse"],
+      "completed": false
+    },
+    {
+      "step_number": 15,
+      "description": "Kill Lhranc in City of Mist and loot the Essence of Lhranc.",
+      "npc": "Lhranc",
+      "location": "City of Mist",
+      "items_received": ["Essence of Lhranc"],
+      "completed": false
+    },
+    {
+      "step_number": 16,
+      "description": "Give Essence of Lhranc to Marl Kastane in Toxxulia Forest to receive the Completed Innoruuk’s Curse.",
+      "npc": "Marl Kastane",
+      "location": "Toxxulia Forest",
+      "items_received": ["Innoruuk’s Curse"],
+      "completed": false
     }
   ]
 }
