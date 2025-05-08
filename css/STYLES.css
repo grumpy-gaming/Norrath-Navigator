@@ -67,3 +67,13 @@ nav {
     background-color: rgba(0, 0, 0, 0.8);  
     padding: 10px;  
     z-index: 100
+
+nav {
+    position: relative;
+    z-index: 10; /* Ensures navbar is placed correctly */
+}
+
+.banner {
+    position: relative;
+    z-index: 5; /* Keeps it below the navbar */
+}
