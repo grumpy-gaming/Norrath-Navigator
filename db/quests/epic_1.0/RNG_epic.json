@@ -1,145 +1,153 @@
 {
-  "quest_name": "Earthcaller and Swiftwind (Ranger Epic 1.0)",
+  "quest_name": "Ranger Epic 1.0 - Earthcaller & Swiftwind",
   "steps": [
     {
       "step_number": 1,
-      "description": "Go to Burning Woods and locate Telin Darkforest (+3240, +2880). Say 'action' to receive Worn Note. You may need to do the Muffin for Pandos quest in West Freeport to get faction if he doesn’t speak to you. You need at least high amiable (possibly higher).",
+      "description": "Speak to Telin Darkforest in Burning Woods to begin the Swiftwind quest.",
       "npc": "Telin Darkforest",
       "location": "Burning Woods",
-      "item_received": "Worn Note"
+      "items_received": [],
+      "completed": false
     },
     {
       "step_number": 2,
-      "description": "Go to Greater Faydark to Loc: +1535, +570. At this spot Faelin Bloodbriar spawns. Her PH is orc pawn. Respawn is 2.5 minutes. Clear orc pawns in the area until you find the right PH. Once found, kill the PH until Faelin Bloodbriar spawns. Give her Worn Note to receive Faelin’s Ring.",
+      "description": "Kill Faelin Bloodbriar in Greater Faydark and loot Faelin's Ring.",
       "npc": "Faelin Bloodbriar",
       "location": "Greater Faydark",
-      "item_received": "Faelin’s Ring"
+      "items_received": ["Faelin's Ring"],
+      "completed": false
     },
     {
       "step_number": 3,
-      "description": "Go to Kithikor Forest and find Giz X`Tin. He roams so you’ll need to track him. Give him Faelin’s Ring to receive Dark Metal Coin. Upon turn-in Teir`Dal Reaver will spawn and attack. You do not have to kill it for anything.",
-      "npc": "Giz X`Tin",
-      "location": "Kithikor Forest",
-      "item_received": "Dark Metal Coin"
+      "description": "Give Faelin’s Ring to Telin Darkforest in Burning Woods to receive a Worn Note.",
+      "npc": "Telin Darkforest",
+      "location": "Burning Woods",
+      "items_received": ["Worn Note"],
+      "completed": false
     },
     {
       "step_number": 4,
-      "description": "Go back to Telin Darkforest (+3240, +2880) in Burning Woods. Give him Dark Metal Coin to receive Worn Dark Metal Coin.",
-      "npc": "Telin Darkforest",
-      "location": "Burning Woods",
-      "item_received": "Worn Dark Metal Coin"
+      "description": "Give Worn Note to Ella Foodcrafter in Misty Thicket to receive Shiny Tin Bowl.",
+      "npc": "Ella Foodcrafter",
+      "location": "Misty Thicket",
+      "items_received": ["Shiny Tin Bowl"],
+      "completed": false
     },
     {
       "step_number": 5,
-      "description": "Head to East Karana and find Althele (-3660, -1590). Give her Worn Dark Metal Coin to receive Braided Grass Amulet. This will also spawn Sionae nearby (-2590, -1600).",
-      "npc": "Althele",
-      "location": "East Karana",
-      "item_received": "Braided Grass Amulet"
+      "description": "Kill Althele, Sionae, Nuien, Teloa, and Veredeth in Lesser Faydark and loot Enchanted Signet.",
+      "npc": ["Althele", "Sionae", "Nuien", "Teloa", "Veredeth"],
+      "location": "Lesser Faydark",
+      "items_received": ["Enchanted Signet"],
+      "completed": false
     },
     {
       "step_number": 6,
-      "description": "Give Sionae (-2590, -1600) Braided Grass Amulet to receive Frayed Braided Grass Amulet. This will also spawn Nuien (-3650, +300).",
-      "npc": "Sionae",
-      "location": "East Karana",
-      "item_received": "Frayed Braided Grass Amulet"
+      "description": "Give Enchanted Signet to Ella Foodcrafter in Misty Thicket to receive Softly Glowing Stone.",
+      "npc": "Ella Foodcrafter",
+      "location": "Misty Thicket",
+      "items_received": ["Softly Glowing Stone"],
+      "completed": false
     },
     {
       "step_number": 7,
-      "description": "Give Nuien (-3650, +300) Frayed Braided Grass Amulet, he will return it. This will also spawn Teloa (-3850, -2850).",
-      "npc": "Nuien",
-      "location": "East Karana",
-      "item_received": "Frayed Braided Grass Amulet"
+      "description": "Kill a Dark Elf Corruptor and a Dark Elf Reaver in Kithicor Forest and loot Dark Elf Parts.",
+      "npc": ["Dark Elf Corruptor", "Dark Elf Reaver"],
+      "location": "Kithicor Forest",
+      "items_received": ["Dark Elf Parts"],
+      "completed": false
     },
     {
       "step_number": 8,
-      "description": "Give Teloa (-3850, -2850) Frayed Braided Grass Amulet. Follow her back to the 'gathering spot'. At this point Dark Elf Corruptor and two Dark Elf Reavers will spawn. Kill them and loot Fleshbound Tome from Dark Elf Corrupter.",
-      "npc": "Teloa",
-      "location": "East Karana",
-      "item_received": "Fleshbound Tome"
+      "description": "Give Dark Elf Parts to Ella Foodcrafter in Misty Thicket to receive Warm Glowing Stone.",
+      "npc": "Ella Foodcrafter",
+      "location": "Misty Thicket",
+      "items_received": ["Warm Glowing Stone"],
+      "completed": false
     },
     {
       "step_number": 9,
-      "description": "Give Fleshbound Tome to Althele to receive Earth Stained Note.",
-      "npc": "Althele",
-      "location": "East Karana",
-      "item_received": "Earth Stained Note"
+      "description": "Give Warm Glowing Stone to Telin Darkforest in Burning Woods to receive Green Tree Bark.",
+      "npc": "Telin Darkforest",
+      "location": "Burning Woods",
+      "items_received": ["Green Tree Bark"],
+      "completed": false
     },
     {
       "step_number": 10,
-      "description": "Go to Misty Thicket and track down Ella Foodcrafter. Give her Earth Stained Note to receive Shiny Tin Bowl.",
-      "npc": "Ella Foodcrafter",
-      "location": "Misty Thicket",
-      "item_received": "Shiny Tin Bowl"
-    },
+      "description": "Give Green Tree Bark to Farios Elianos in South Felwithe to receive Hardened Mixture.",
+      "npc": "Farios Elianos",
+      "location": "South Felwithe",
+      "items_received": ["Hardened Mixture"],
+      "completed": false
+    }
+  ]
+}
+{
+  "steps": [
     {
       "step_number": 11,
-      "description": "Forage Chilled Tundra Root (Everfrost), Ripened Heartfruit (Greater Faydark), Speckled Molded Mushroom (Innothule), Sweetened Mudroot (Misty Thicket).",
-      "npc": "N/A",
-      "location": ["Everfrost", "Greater Faydark", "Innothule", "Misty Thicket"],
-      "items_received": ["Chilled Tundra Root", "Ripened Heartfruit", "Speckled Molded Mushroom", "Sweetened Mudroot"]
+      "description": "Give Hardened Mixture to Niera Farbreeze in North Felwithe to receive Sealed Letter.",
+      "npc": "Niera Farbreeze",
+      "location": "North Felwithe",
+      "items_received": ["Sealed Letter"],
+      "completed": false
     },
     {
       "step_number": 12,
-      "description": "Give Shiny Tin Bowl and foraged items to Ella Foodcrafter to receive Hardened Mixture.",
-      "npc": "Ella Foodcrafter",
-      "location": "Misty Thicket",
-      "item_received": "Hardened Mixture"
+      "description": "Give Sealed Letter to Telin Darkforest in Burning Woods to receive a Blackened Stone.",
+      "npc": "Telin Darkforest",
+      "location": "Burning Woods",
+      "items_received": ["Blackened Stone"],
+      "completed": false
     },
     {
       "step_number": 13,
-      "description": "Go to Plane of Growth and find Xanuusus. Give him Hardened Mixture to receive Softly Glowing Stone.",
-      "npc": "Xanuusus",
-      "location": "Plane of Growth",
-      "item_received": "Softly Glowing Stone"
+      "description": "Give Blackened Stone to Faelin Bloodbriar in Greater Faydark to receive Swiftwind.",
+      "npc": "Faelin Bloodbriar",
+      "location": "Greater Faydark",
+      "items_received": ["Swiftwind"],
+      "completed": false
     },
     {
       "step_number": 14,
-      "description": "Go to Emerald Jungle and find Ulump Pujluk. Give him Softly Glowing Stone to spawn corrupted gorilla. Kill corrupted gorilla and loot Green Tree Bark.",
-      "npc": "Ulump Pujluk",
-      "location": "Emerald Jungle",
-      "item_received": "Green Tree Bark"
+      "description": "Kill Venril Sathir in Karnor's Castle and loot the Pulsing Green Stone.",
+      "npc": "Venril Sathir",
+      "location": "Karnor's Castle",
+      "items_received": ["Pulsing Green Stone"],
+      "completed": false
     },
     {
       "step_number": 15,
-      "description": "Give Green Tree Bark to Xanuusus in Plane of Growth to receive Pulsing Green Stone.",
-      "npc": "Xanuusus",
-      "location": "Plane of Growth",
-      "item_received": "Pulsing Green Stone"
+      "description": "Give Pulsing Green Stone to Telin Darkforest in Burning Woods to receive the Ancient Pattern.",
+      "npc": "Telin Darkforest",
+      "location": "Burning Woods",
+      "items_received": ["Ancient Pattern"],
+      "completed": false
     },
     {
       "step_number": 16,
-      "description": "Go to City of Mist and kill black reaver to loot Jade Reaver.",
-      "npc": "black reaver",
-      "location": "City of Mist",
-      "item_received": "Jade Reaver"
+      "description": "Give Ancient Pattern to Farios Elianos in South Felwithe to receive the Rune-Covered Stone.",
+      "npc": "Farios Elianos",
+      "location": "South Felwithe",
+      "items_received": ["Rune-Covered Stone"],
+      "completed": false
     },
     {
       "step_number": 17,
-      "description": "Give Jade Reaver and Pulsing Green Stone to Xanuusus in Plane of Growth to receive Earthcaller.",
-      "npc": "Xanuusus",
-      "location": "Plane of Growth",
-      "item_received": "Earthcaller"
+      "description": "Give Rune-Covered Stone to Ella Foodcrafter in Misty Thicket to receive the Softly Glowing Stone.",
+      "npc": "Ella Foodcrafter",
+      "location": "Misty Thicket",
+      "items_received": ["Softly Glowing Stone"],
+      "completed": false
     },
     {
       "step_number": 18,
-      "description": "Go to Plane of Sky and kill essence tamers on Island 4 to loot Swirling Sphere of Color.",
-      "npc": "essence tamers",
-      "location": "Plane of Sky",
-      "item_received": "Swirling Sphere of Color"
-    },
-    {
-      "step_number": 19,
-      "description": "Go to Plane of Hate and kill named mobs to loot Shattered Emerald of Corruption.",
-      "npc": "named mobs",
-      "location": "Plane of Hate",
-      "item_received": "Shattered Emerald of Corruption"
-    },
-    {
-      "step_number": 20,
-      "description": "Give Swirling Sphere of Color and Shattered Emerald of Corruption to Telin Darkforest in Burning Woods to receive Swiftwind.",
+      "description": "Give Softly Glowing Stone to Telin Darkforest in Burning Woods to receive the Earthcaller.",
       "npc": "Telin Darkforest",
       "location": "Burning Woods",
-      "item_received": "Swiftwind"
+      "items_received": ["Earthcaller"],
+      "completed": false
     }
   ]
 }
