@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Maps</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Game Maps</h1>
+    </header>
+
+    <section>
+        <h2>Map Viewer</h2>
+        <select id="map-selector">
+            <option value="map_norrath.txt">Norrath</option>
+            <option value="map_blackburrow.txt">Blackburrow</option>
+            <option value="map_kunark.txt">Kunark</option>
+        </select>
+        <canvas id="mapCanvas" width="800" height="600"></canvas>
+    </section>
+
+    <script src="../assets/mapLoader.js"></script>
+</body>
+</html>
