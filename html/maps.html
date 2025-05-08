@@ -2,20 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Maps - Blackburrow</title>
-    <link rel="stylesheet" href="../assets/style.css">
+    <title>Norrath Navigator - Maps</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <h1>Norrath Navigator - Maps Page</h1>
+    
+    <!-- Canvas for drawing the maps -->
+    <div id="mapContainer">
+        <canvas id="mapCanvas" width="800" height="600"></canvas>
+    </div>
 
-    <header>
-        <h1>Game Maps</h1>
-    </header>
-
-    <section>
-        <h2>Map Viewer</h2>
-        <img id="mapImage" src="../db/maps/blackburrow1.jpg" alt="Blackburrow1 Map" width="800" height="600">
-    </section>
-
+    <!-- JavaScript files for loading and rendering the maps -->
+    <script src="js/mapLoader.js"></script>
+    <script src="js/mapRenderer.js"></script>
 </body>
 </html>
