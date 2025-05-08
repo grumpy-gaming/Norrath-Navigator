@@ -1,0 +1,1 @@
+fetch('../db/quests/epic_1.0/quests.json')
