@@ -59,6 +59,20 @@ main {
     padding: 20px;
 }
 
+button {
+    background-color: #444;
+    color: #ffcc00;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #666;
+}
+
 /* Sections with Contrast */
 section {
     background-color: #222;
