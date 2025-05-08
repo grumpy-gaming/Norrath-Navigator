@@ -1,68 +1,153 @@
 {
-  "quest_name": "Celestial Fists (Monk Epic 1.0)",
+  "quest_name": "Monk Epic 1.0 - Celestial Fists",
   "steps": [
     {
       "step_number": 1,
-      "description": "Obtain Robe of the Lost Circle by either killing Brother Zephyl in Rathe Mountains or Brother Qwinn in South Karana.",
-      "npc": ["Brother Zephyl", "Brother Qwinn"],
-      "location": ["Rathe Mountains", "South Karana"],
-      "item_received": "Robe of the Lost Circle"
+      "description": "Speak to Brother Qwinn in South Karana. Give him a Purple Headband and a Red Sash to receive a Rare Robe Pattern.",
+      "npc": "Brother Qwinn",
+      "location": "South Karana",
+      "items_received": ["Rare Robe Pattern"],
+      "completed": false
     },
     {
       "step_number": 2,
-      "description": "Obtain Metal Pipe (Fi) by killing an iksar betrayer in Chardok.",
-      "npc": "iksar betrayer",
-      "location": "Chardok",
-      "item_received": "Metal Pipe (Fi)"
+      "description": "Speak to Brother Zephyl in Rathe Mountains. Give him a Black Headband and a White Sash to receive a Rare Robe Pattern.",
+      "npc": "Brother Zephyl",
+      "location": "Rathe Mountains",
+      "items_received": ["Rare Robe Pattern"],
+      "completed": false
     },
     {
       "step_number": 3,
-      "description": "Obtain Metal Pipe (Zan) by killing a drolvarg pawbuster in Karnor’s Castle.",
-      "npc": "drolvarg pawbuster",
-      "location": "Karnor’s Castle",
-      "item_received": "Metal Pipe (Zan)"
+      "description": "Go to Lake Rathetear and find Brother Balatin. Give him both Rare Robe Patterns along with three 500pp pieces to receive Robe of the Lost Circle.",
+      "npc": "Brother Balatin",
+      "location": "Lake Rathetear",
+      "items_received": ["Robe of the Lost Circle"],
+      "completed": false
     },
     {
       "step_number": 4,
-      "description": "Combine Robe of the Lost Circle, Metal Pipe (Fi), and Metal Pipe (Zan) in a container to create Robe of the Whistling Fists.",
-      "npc": "N/A",
-      "location": "N/A",
-      "item_received": "Robe of the Whistling Fists"
+      "description": "Go to Dalnir and kill Trakanon to loot the Rare Robe Pattern.",
+      "npc": "Trakanon",
+      "location": "Dalnir",
+      "items_received": ["Rare Robe Pattern"],
+      "completed": false
     },
     {
       "step_number": 5,
-      "description": "Obtain Charred Scale by killing Eejag in Lavastorm Mountains.",
-      "npc": "Eejag",
-      "location": "Lavastorm Mountains",
-      "item_received": "Charred Scale"
+      "description": "Go to Timorous Deep and find an Iksar Master. Give him the Robe of the Lost Circle and Rare Robe Pattern to receive Robe of the Whistling Fists.",
+      "npc": "Iksar Master",
+      "location": "Timorous Deep",
+      "items_received": ["Robe of the Whistling Fists"],
+      "completed": false
     },
     {
       "step_number": 6,
-      "description": "Obtain Immortals by killing named mobs in Skyfire Mountains.",
-      "npc": "named mobs",
-      "location": "Skyfire Mountains",
-      "item_received": "Immortals"
+      "description": "Speak to Deep in Chardok. Give him the Robe of the Whistling Fists and three Pipe pieces from Kylong, Charasis, and Karnor's Castle to receive the Robe of the Celestial Fists.",
+      "npc": "Deep",
+      "location": "Chardok",
+      "items_received": ["Robe of the Celestial Fists"],
+      "completed": false
     },
     {
       "step_number": 7,
-      "description": "Combine Robe of the Whistling Fists, Charred Scale, and Immortals in a container to create Demon Fangs.",
-      "npc": "N/A",
-      "location": "N/A",
-      "item_received": "Demon Fangs"
+      "description": "Kill Targin the Rock in Lower Guk and loot the Code of Zan Fi.",
+      "npc": "Targin the Rock",
+      "location": "Lower Guk",
+      "items_received": ["Code of Zan Fi"],
+      "completed": false
     },
     {
       "step_number": 8,
-      "description": "Go to Trakanon's Teeth and find a mad Kaiaren. Give him Demon Fangs to receive Book of Celestial Fists.",
-      "npc": "mad Kaiaren",
-      "location": "Trakanon's Teeth",
-      "item_received": "Book of Celestial Fists"
+      "description": "Kill Raster of Guk in Lower Guk and loot the Idol of Zan Fi.",
+      "npc": "Raster of Guk",
+      "location": "Lower Guk",
+      "items_received": ["Idol of Zan Fi"],
+      "completed": false
     },
     {
       "step_number": 9,
-      "description": "Go to Trakanon's Teeth and find a sane Kaiaren. Give him Book of Celestial Fists to receive Celestial Fists.",
-      "npc": "sane Kaiaren",
-      "location": "Trakanon's Teeth",
-      "item_received": "Celestial Fists"
+      "description": "Give Code of Zan Fi and Idol of Zan Fi to Kaiaren in Lake Rathetear. He will attack you—let him kill you.",
+      "npc": "Kaiaren",
+      "location": "Lake Rathetear",
+      "items_received": ["Death Trigger Complete"],
+      "completed": false
+    },
+    {
+      "step_number": 10,
+      "description": "Speak to Kaiaren again and give him the Book of Celestial Fists to receive a Celestial Fist Book.",
+      "npc": "Kaiaren",
+      "location": "Lake Rathetear",
+      "items_received": ["Celestial Fist Book"],
+      "completed": false
+    }
+  ]
+}
+{
+  "steps": [
+    {
+      "step_number": 11,
+      "description": "Speak to Kaiaren again and give him Celestial Fist Book to receive a Book of Celestial Fists.",
+      "npc": "Kaiaren",
+      "location": "Lake Rathetear",
+      "items_received": ["Book of Celestial Fists"],
+      "completed": false
+    },
+    {
+      "step_number": 12,
+      "description": "Find Eejag in Lavastorm Mountains and kill him to loot an Earth Fist.",
+      "npc": "Eejag",
+      "location": "Lavastorm Mountains",
+      "items_received": ["Earth Fist"],
+      "completed": false
+    },
+    {
+      "step_number": 13,
+      "description": "Go to Plane of Air and kill the Iksar Master to loot an Air Fist.",
+      "npc": "Iksar Master",
+      "location": "Plane of Air",
+      "items_received": ["Air Fist"],
+      "completed": false
+    },
+    {
+      "step_number": 14,
+      "description": "Kill Gwan in Timorous Deep to loot a Fire Fist.",
+      "npc": "Gwan",
+      "location": "Timorous Deep",
+      "items_received": ["Fire Fist"],
+      "completed": false
+    },
+    {
+      "step_number": 15,
+      "description": "Kill Trunt in The Overthere to loot a Water Fist.",
+      "npc": "Trunt",
+      "location": "The Overthere",
+      "items_received": ["Water Fist"],
+      "completed": false
+    },
+    {
+      "step_number": 16,
+      "description": "Kill Deep in Chardok to loot a Celestial Fist.",
+      "npc": "Deep",
+      "location": "Chardok",
+      "items_received": ["Celestial Fist"],
+      "completed": false
+    },
+    {
+      "step_number": 17,
+      "description": "Combine Earth, Air, Fire, Water, and Celestial Fist in the Book of Celestial Fists to create a Completed Celestial Fists.",
+      "npc": "N/A",
+      "location": "N/A",
+      "items_received": ["Completed Celestial Fists"],
+      "completed": false
+    },
+    {
+      "step_number": 18,
+      "description": "Give Completed Celestial Fists to Kaiaren in Lake Rathetear to receive the Monk Epic 1.0 - Celestial Fists.",
+      "npc": "Kaiaren",
+      "location": "Lake Rathetear",
+      "items_received": ["Celestial Fists"],
+      "completed": false
     }
   ]
 }
