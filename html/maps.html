@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Maps</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Game Maps</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="maps.html">Maps</a></li>
+            <li><a href="quests.html">Quests</a></li>
+        </ul>
+    </nav>
+
+    <!-- Map Viewer -->
+    <section>
+        <h2>Interactive Map Viewer</h2>
+        <select id="map-selector">
+            <option value="map1.jpg">Map 1</option>
+            <option value="map2.jpg">Map 2</option>
+            <option value="map3.jpg">Map 3</option>
+            <option value="map4.jpg">Map 4</option>
+            <option value="map5.jpg">Map 5</option>
+        </select>
+        <img id="map-display" src="../assets/maps/map1.jpg" alt="Game Map" width="600">
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>✅ Select a map from the dropdown to view different locations.</p>
+    </footer>
+
+    <!-- JavaScript for Interactive Maps -->
+    <script>
+        document.getElementById('map-selector').addEventListener('change', function() {
+            document.getElementById('map-display').src = "../assets/maps/" + this.value;
+        });
+    </script>
+
+</body>
+</html>
