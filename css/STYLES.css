@@ -15,6 +15,16 @@ header {
     width: 150px;
 }
 
+/* ✅ Fixed Nav Syntax & Layering */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    z-index: 100;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -28,6 +38,13 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+/* ✅ Ensuring Banner Is Below Nav */
+.banner {
+    position: relative;
+    z-index: 5; /* Keeps it correctly layered */
+    margin-top: 60px; /* Adjusts spacing so navbar doesn’t overlap */
 }
 
 main {
@@ -58,22 +75,4 @@ footer ul li {
 footer ul li a {
     color: white;
     text-decoration: none;
-}
-
-nav {  
-    position: fixed;  
-    top: 0;  
-    width: 100%;  
-    background-color: rgba(0, 0, 0, 0.8);  
-    padding: 10px;  
-    z-index: 100
-
-nav {
-    position: relative;
-    z-index: 10; /* Ensures navbar is placed correctly */
-}
-
-.banner {
-    position: relative;
-    z-index: 5; /* Keeps it below the navbar */
 }
