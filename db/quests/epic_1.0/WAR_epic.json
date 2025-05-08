@@ -1,40 +1,77 @@
 {
-  "quest_name": "The Fiery Avenger (Warrior Epic 1.0)",
+  "quest_name": "Warrior Epic 1.0 - Jagged Blade of War",
   "steps": [
     {
       "step_number": 1,
-      "description": "Go to Plane of Fear and kill the Dread, Fright, and Terror until you loot the Shattered Emerald of Corruption.",
-      "npc": ["Dread", "Fright", "Terror"],
-      "location": "Plane of Fear",
-      "item_received": "Shattered Emerald of Corruption"
+      "description": "Speak to Kargek Redblade in East Freeport to begin the epic quest.",
+      "npc": "Kargek Redblade",
+      "location": "East Freeport",
+      "items_received": [],
+      "completed": false
     },
     {
       "step_number": 2,
-      "description": "Go to Plane of Hate and kill the Maestro of Rancor to loot the Shattered Emerald of Corruption.",
-      "npc": "Maestro of Rancor",
-      "location": "Plane of Hate",
-      "item_received": "Shattered Emerald of Corruption"
+      "description": "Kill a goblin in Warsliks Woods and loot the Ancient Sword Blade.",
+      "npc": "Goblin",
+      "location": "Warsliks Woods",
+      "items_received": ["Ancient Sword Blade"],
+      "completed": false
     },
     {
       "step_number": 3,
-      "description": "Go to City of Mist and kill Black Reaver until you loot the Soul Leech, Dark Sword of Blood.",
-      "npc": "Black Reaver",
-      "location": "City of Mist",
-      "item_received": "Soul Leech, Dark Sword of Blood"
+      "description": "Kill Cazic Thule in Plane of Fear and loot the Runed Sword Hilt.",
+      "npc": "Cazic Thule",
+      "location": "Plane of Fear",
+      "items_received": ["Runed Sword Hilt"],
+      "completed": false
     },
     {
       "step_number": 4,
-      "description": "Go to Kithicor Forest and kill General V`ghera to loot the Decrepit Hide.",
-      "npc": "General V`ghera",
-      "location": "Kithicor Forest",
-      "item_received": "Decrepit Hide"
+      "description": "Give Ancient Sword Blade and Runed Sword Hilt to Kargek Redblade in East Freeport to receive the Completed Redblade Sword.",
+      "npc": "Kargek Redblade",
+      "location": "East Freeport",
+      "items_received": ["Completed Redblade Sword"],
+      "completed": false
     },
     {
       "step_number": 5,
-      "description": "Go to East Freeport and find Kazen F`Lakk. Give him Soul Leech, Dark Sword of Blood, Blade of Abrogation, Decrepit Hide, and Shattered Emerald of Corruption to receive The Fiery Avenger.",
-      "npc": "Kazen F`Lakk",
+      "description": "Kill Venril Sathir in Karnor’s Castle and loot the Greenmist Blade.",
+      "npc": "Venril Sathir",
+      "location": "Karnor’s Castle",
+      "items_received": ["Greenmist Blade"],
+      "completed": false
+    },
+    {
+      "step_number": 6,
+      "description": "Kill an undead knight in City of Mist and loot the Spirit Bound Hilt.",
+      "npc": "Undead Knight",
+      "location": "City of Mist",
+      "items_received": ["Spirit Bound Hilt"],
+      "completed": false
+    },
+    {
+      "step_number": 7,
+      "description": "Give Greenmist Blade and Spirit Bound Hilt to Kargek Redblade in East Freeport to receive the Combined Greenmist Blade.",
+      "npc": "Kargek Redblade",
       "location": "East Freeport",
-      "items_received": ["The Fiery Avenger"]
+      "items_received": ["Combined Greenmist Blade"],
+      "completed": false
+    },
+    {
+      "step_number": 8,
+      "description": "Kill Lord Rak'Ashiir in City of Mist and loot the Enchanted Warblade.",
+      "npc": "Lord Rak'Ashiir",
+      "location": "City of Mist",
+      "items_received": ["Enchanted Warblade"],
+      "completed": false
+    },
+    {
+      "step_number": 9,
+      "description": "Give Completed Redblade Sword, Combined Greenmist Blade, and Enchanted Warblade to Kargek Redblade in East Freeport to receive the Warrior Epic 1.0 - Jagged Blade of War.",
+      "npc": "Kargek Redblade",
+      "location": "East Freeport",
+      "items_received": ["Jagged Blade of War"],
+      "completed": false
     }
   ]
 }
