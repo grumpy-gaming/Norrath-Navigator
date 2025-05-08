@@ -26,13 +26,13 @@
     <section>
         <h2>Interactive Map Viewer</h2>
         <select id="map-selector">
-            <option value="map1.jpg">Map 1</option>
-            <option value="map2.jpg">Map 2</option>
-            <option value="map3.jpg">Map 3</option>
-            <option value="map4.jpg">Map 4</option>
-            <option value="map5.jpg">Map 5</option>
+            <option value="map_norrath.txt">Norrath Map</option>
+            <option value="map_blackburrow.txt">Blackburrow</option>
+            <option value="map_kunark.txt">Kunark</option>
+            <option value="map_velious.txt">Velious</option>
+            <option value="map_umbral_plains.txt">Umbral Plains</option>
         </select>
-        <img id="map-display" src="../assets/maps/map1.jpg" alt="Game Map" width="600">
+        <canvas id="mapCanvas" width="800" height="600"></canvas>
     </section>
 
     <!-- Footer -->
@@ -40,11 +40,37 @@
         <p>✅ Select a map from the dropdown to view different locations.</p>
     </footer>
 
-    <!-- JavaScript for Interactive Maps -->
+    <!-- JavaScript for EQ Maps -->
     <script>
         document.getElementById('map-selector').addEventListener('change', function() {
-            document.getElementById('map-display').src = "../assets/maps/" + this.value;
+            loadMap("../db/maps/" + this.value);
         });
+
+        function loadMap(mapPath) {
+            fetch(mapPath)
+                .then(response => response.text())
+                .then(data => {
+                    let canvas = document.getElementById('mapCanvas');
+                    let ctx = canvas.getContext('2d');
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                    data.split('\n').forEach(line => {
+                        let parts = line.split(', ');
+                        if (parts[0] === 'P') { // Parse EQ Map Points
+                            let x = parseFloat(parts[1]);
+                            let y = parseFloat(parts[2]);
+                            let size = parseInt(parts[6]);
+                            let color = `rgb(${parts[3]}, ${parts[4]}, ${parts[5]})`;
+
+                            ctx.fillStyle = color;
+                            ctx.beginPath();
+                            ctx.arc(x, y, size, 0, Math.PI * 2);
+                            ctx.fill();
+                        }
+                    });
+                })
+                .catch(error => console.error('Error loading map:', error));
+        }
     </script>
 
 </body>
