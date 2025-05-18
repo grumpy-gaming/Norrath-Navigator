@@ -1,4 +1,5 @@
-# Buff Strategy Guide for Planes of Power Era
+# Buff Strategy Guide 
+
 This guide provides an optimized **buffing strategy** for **Shaman, Druid, Cleric, Ranger, and Enchanter** classes. Buffs are categorized based on their effects, with **level restrictions** detailing which levels they can be applied to.
 
 ---
