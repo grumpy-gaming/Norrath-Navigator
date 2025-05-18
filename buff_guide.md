@@ -91,7 +91,5 @@ This guide provides an optimized **buffing strategy** for **Shaman, Druid, Cleri
 - **Level 60 spells** can land on **up to level 56 characters**.
 - **Level 65 spells** can land on **any level 61+ character**.
 - **Lower-level buffs** (such as Spirit of Wolf, Regeneration, and Haste) can be cast on **any level**.
-- **Group buffs** may have slightly different restrictions compared to single-target buffs.
-
 ---
 
