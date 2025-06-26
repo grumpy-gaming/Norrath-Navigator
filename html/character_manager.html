@@ -1,1 +1,282 @@
-placeholder
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Character Manager</title>
+  <link rel="stylesheet" href="../css/style.css">
+<style>
+  /* General container for the main app content below the header */
+  .container {
+      padding: 20px; /* Consistent padding around all main content */
+      max-width: 1200px; /* Limit overall content width */
+      margin: 0 auto; /* Center the main content */
+      box-sizing: border-box;
+  }
+
+  /* Styles for the "Add New Character" button at the top */
+  #toggleAddCharacterFormBtn {
+      display: block; /* Make it a block element */
+      margin: 20px auto; /* Center it horizontally with vertical margin */
+      background-color: #008CBA;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1.1em;
+  }
+
+  /* Basic styles for the Add/Edit character form container */
+  .add-character-form {
+      background-color: #333; /* Darkest grey for the form container */
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+      display: grid;
+      /* Define columns: Labels auto-width, Inputs fill remaining 1fr */
+      grid-template-columns: auto 1fr; /* This allows inputs to stretch */
+      gap: 10px 20px; /* Row gap 10px, Column gap 20px (between label and input) */
+
+      width: 650px; /* Overall fixed width for the form box to make contents visually centered */
+      max-width: 90%; /* Responsive fallback */
+
+      margin-left: auto; /* Center the form horizontally */
+      margin-right: auto;
+      align-items: center; /* Vertically align items in the grid */
+      box-sizing: border-box;
+  }
+  .add-character-form h3 { /* Header inside the form */
+      grid-column: 1 / span 2;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 20px;
+      color: #eee;
+  }
+  .add-character-form label {
+      text-align: right;
+      padding-right: 10px;
+      color: #eee;
+      grid-column: 1;
+      white-space: nowrap;
+  }
+  .add-character-form input[type="text"],
+  .add-character-form input[type="number"],
+  .add-character-form select {
+      width: 80%; /* Inputs fill the '1fr' column's width */
+      /* Removed specific width: 72% and padding: 10px; border: 3px; from your previous manual edits */
+      padding: 8px; /* Standardized padding */
+      border: 1px solid #666; /* Standardized border */
+      border-radius: 4px;
+      background-color: #555; /* Mid-tone grey for input fields themselves */
+      color: #fff;
+      grid-column: 2;
+      justify-self: stretch; /* Make input stretch to fill its grid cell */
+  }
+  /* Save/Cancel buttons styles */
+  .add-character-form button {
+      grid-column: 1 / span 2;
+      text-align: center;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 10px;
+      width: 60%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .add-character-form button.save-btn {
+      background-color: #4CAF50;
+      color: white;
+  }
+  .add-character-form button.cancel-btn {
+      background-color: #f44336;
+      color: white;
+  }
+  .add-character-form.hidden {
+      display: none;
+  }
+
+  /* Styles for the overall two-column character list grid container */
+  .character-list-grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+      gap: 30px; /* Space between columns and rows */
+      max-width: 1200px; /* Overall max width for the grid */
+      margin: 40px auto; /* Center the grid container and add vertical margin */
+      padding: 20px;
+      background-color: #333; /* Darkest grey background for this area */
+      border-radius: 10px;
+      box-sizing: border-box;
+  }
+
+  /* Styles for the individual sections (Main, Alt, Trader/Buffer) within the grid */
+  .char-group-section {
+      background-color: #444; /* Mid-tone grey for sections */
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Positioning the sections within the grid columns and rows */
+  .main-section {
+      grid-column: 1;
+      grid-row: 1;
+  }
+  .alt-section {
+      grid-column: 2;
+      grid-row: 1 / span 2; /* Span across two rows */
+  }
+  .trader-buffer-section {
+      grid-column: 1;
+      grid-row: 2;
+      margin-top: 30px;
+  }
+
+  /* Style for the actual character list div inside each section */
+  .character-group {
+      margin-top: 15px;
+      min-height: 100px;
+      padding: 5px;
+      border-radius: 5px;
+      box-sizing: border-box;
+  }
+
+  /* Styles for individual character cards */
+  .character-card {
+      background-color: #555; /* Lightest grey for individual cards */
+      border: 1px solid #777;
+      padding: 8px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      color: #fff;
+      max-width: 100%;
+      min-height: 35px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: nowrap; /* CRUCIAL: Prevent text/buttons from wrapping to a new line */
+      box-sizing: border-box;
+  }
+  .character-card h3 {
+      color: #FFD700; /* Gold/Yellow for character name/level/etc. */
+      margin: 0;
+      flex-grow: 1;
+      padding-right: 5px;
+      font-size: 0.9em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+  .character-card button {
+      margin-right: 3px;
+      padding: 3px 8px;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 0.75em;
+      flex-shrink: 0;
+      margin-top: 0;
+      margin-left: 0;
+  }
+  .character-card button.edit-char-btn {
+      background-color: #FFD700; /* Yellow (as desired) */
+      color: #333; /* Dark text on yellow for contrast */
+  }
+  .character-card button.delete-char-btn {
+      background-color: #f44336; /* RED (as desired) */
+      color: white;
+  }
+  /* Style for the container of buttons, so they stay together */
+  .character-card .button-group {
+      display: flex;
+      flex-shrink: 0;
+      margin-left: auto;
+  }
+  /* Class icon styling */
+  .class-icon {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+      margin: 0 1px;
+      display: inline-block;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Character Manager</h1>
+    <p><a href="../Start_Here.html">Back to Main Page</a></p>
+  </header>
+
+  <div class="container">
+    <button id="toggleAddCharacterFormBtn" style="background-color: #008CBA; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 1.1em; margin-bottom: 20px;">
+        Add New Character
+    </button>
+
+    <div id="characterFormContainer" class="add-character-form hidden">
+        <h3>Add New Character Details</h3>
+        <label for="charName">Name:</label>
+        <input type="text" id="charName" required>
+
+        <label for="charLevel">Level:</label>
+        <input type="number" id="charLevel" required>
+
+        <label for="charClass1">Class 1 (e.g., RNG):</label>
+        <input type="text" id="charClass1" placeholder="e.g., RNG" maxlength="3">
+
+        <label for="charClass2">Class 2 (e.g., SHD):</label>
+        <input type="text" id="charClass2" placeholder="e.g., SHD" maxlength="3">
+
+        <label for="charClass3">Class 3 (e.g., WIZ):</label>
+        <input type="text" id="charClass3" placeholder="e.g., WIZ" maxlength="3">
+
+        <label for="charAccountName">Account Name:</label>
+        <input type="text" id="charAccountName" required>
+
+        <label for="charGroupType">Group Type:</label>
+        <select id="charGroupType" required>
+            <option value="main">Main</option>
+            <option value="alt">Alt</option>
+            <option value="trader/buffer">Trader/Buffer</option>
+        </select>
+
+        <button id="saveCharacterBtn" class="save-btn">Save Character</button>
+        <button id="cancelCharacterBtn" class="cancel-btn">Cancel</button>
+    </div>
+    <hr>
+
+    <div class="character-list-grid-container">
+
+        <div class="char-group-section main-section">
+            <h2>Main Characters</h2>
+            <div id="main-characters-list" class="character-group">
+                <p>Loading main characters...</p>
+            </div>
+        </div>
+
+        <div class="char-group-section alt-section">
+            <h2>Alt Characters</h2>
+            <div id="alt-characters-list" class="character-group">
+                <p>Loading alt characters...</p>
+            </div>
+        </div>
+
+        <div class="char-group-section trader-buffer-section">
+            <h2>Trader/Buffer Characters</h2>
+            <div id="trader-buffer-characters-list" class="character-group">
+                <p>Loading trader/buffer characters...</p>
+            </div>
+        </div>
+
+    </div>
+
+  </div>
+
+  <script src="../js/character_manager.js"></script>
+</body>
+</html>

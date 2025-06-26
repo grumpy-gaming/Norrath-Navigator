@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Norrath Navigator Loading...</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #333; /* Dark background */
+            color: #ccc;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow: hidden; /* Hide scrollbars */
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+            animation: fadeIn 2s ease-out; /* Simple fade-in animation */
+        }
+        p {
+            margin-top: 20px;
+            font-size: 1.2em;
+            opacity: 0;
+            animation: fadeIn 2s ease-out 1s forwards; /* Delayed fade-in */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <img src="assets/images/pic_004.jpg" alt="Norrath Navigator Logo">
+    <p>Loading Norrath Navigator... Click anywhere to continue.</p>
+    <script>
+    // Add a click listener to immediately close for testing
+    document.body.addEventListener('click', () => {
+        window.location.href = 'Start_Here.html'; // Load main page
+    });
+
+    // Automatically close after a few seconds (COMMENTED OUT FOR CLICK-TO-CONTINUE)
+    // setTimeout(() => {
+    //     window.location.href = 'Start_Here.html'; // Load main page
+    // }, 3000); // 3 seconds
+	</script>
+</body>
+</html>

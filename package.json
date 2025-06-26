@@ -1,0 +1,24 @@
+{
+  "name": "norrath-navigator",
+  "version": "1.0.0",
+  "description": "<img src=\"assets/images/pic_002.jpg\" alt=\"Norrath Navigator Logo\" width=\"480\" align=\"center\">",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grumpy-gaming/Norrath-Navigator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grumpy-gaming/Norrath-Navigator/issues"
+  },
+  "homepage": "https://github.com/grumpy-gaming/Norrath-Navigator#readme",
+  "devDependencies": {
+    "electron": "^36.5.0"
+  }
+}

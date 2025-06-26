@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Character Details</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* Basic styling for the details page */
+    body {
+        background-color: #4A4A4A; /* Page background color */
+        color: #eee;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+    .header-section {
+        background-color: #333;
+        padding: 15px 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .header-section h1 {
+        color: #FFD700;
+        margin: 0 0 10px 0;
+    }
+    .header-section a {
+        color: #008CBA;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .header-section a:hover {
+        text-decoration: underline;
+    }
+
+    .details-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns for details */
+        gap: 20px;
+        background-color: #333;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+    .detail-item {
+        background-color: #444;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    .detail-item strong {
+        color: #FFD700;
+        display: block;
+        margin-bottom: 5px;
+    }
+    .detail-item span {
+        font-size: 0.9em;
+    }
+    .class-icons-display img {
+        width: 28px;
+        height: 28px;
+        vertical-align: middle;
+        margin: 0 2px;
+    }
+
+    /* Basic inventory layout placeholder */
+    .inventory-section {
+        background-color: #333;
+        padding: 20px;
+        border-radius: 8px;
+    }
+    .inventory-layout {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr)); /* Flexible columns for slots */
+        gap: 5px;
+        background-color: #444;
+        padding: 10px;
+        border-radius: 5px;
+        min-height: 200px; /* Placeholder height */
+    }
+    .inventory-slot {
+        width: 60px;
+        height: 60px;
+        background-color: #555;
+        border: 1px solid #777;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8em;
+        color: #ccc;
+    }
+    .inventory-slot.equipped {
+        background-color: #666; /* Different color for equipped slots */
+    }
+    .inventory-slot img {
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    /* Drop Zone Styles */
+    #inventory-drop-zone {
+        border: 2px dashed #008CBA;
+        border-radius: 8px;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 1.2em;
+        color: #008CBA;
+        background-color: #2a2a2a;
+        cursor: pointer;
+    }
+    #inventory-drop-zone.dragover {
+        background-color: #1a1a1a;
+        border-color: #FFD700;
+        color: #FFD700;
+    }
+  </style>
+</head>
+<body>
+  <div class="header-section">
+    <h1 id="character-name-display">Character Name Loading...</h1>
+    <p><a href="character_manager.html">Back to Character List</a></p>
+  </div>
+
+  <div class="details-grid">
+    <div class="detail-item">
+      <strong>Level:</strong> <span id="char-level"></span>
+    </div>
+    <div class="detail-item">
+      <strong>Account:</strong> <span id="char-account"></span>
+    </div>
+    <div class="detail-item">
+      <strong>Classes:</strong> <div id="char-classes" class="class-icons-display"></div>
+    </div>
+    <div class="detail-item">
+      <strong>Group:</strong> <span id="char-group"></span>
+    </div>
+  </div>
+
+  <div class="inventory-section">
+    <h2>Inventory</h2>
+    <div id="inventory-drop-zone">
+      Drop Inventory .txt File Here
+    </div>
+    <p style="margin-top: 10px; font-size: 0.85em; color: #aaa;">
+        (Generate an inventory log by typing `/outputfile inventory` in game.)
+    </p>
+
+    <div id="equipped-slots" class="inventory-layout" style="margin-bottom: 20px;">
+        <h3>Equipped Items</h3>
+        <div class="inventory-slot">Head</div>
+        <div class="inventory-slot">Chest</div>
+        <div class="inventory-slot">Arms</div>
+        <div class="inventory-slot">Wrists</div>
+        <div class="inventory-slot">Hands</div>
+        <div class="inventory-slot">Legs</div>
+        <div class="inventory-slot">Feet</div>
+        <div class="inventory-slot">Primary</div>
+        <div class="inventory-slot">Secondary</div>
+        <div class="inventory-slot">Range</div>
+        <div class="inventory-slot">Ammo</div>
+        <div class="inventory-slot">Shoulders</div>
+        <div class="inventory-slot">Face</div>
+        <div class="inventory-slot">Ears</div>
+        <div class="inventory-slot">Neck</div>
+        <div class="inventory-slot">Back</div>
+        <div class="inventory-slot">Waist</div>
+        <div class="inventory-slot">Finger</div>
+        <div class="inventory-slot">Finger</div>
+        <div class="inventory-slot">Power Source</div>
+    </div>
+
+    <div id="main-inventory-slots" class="inventory-layout" style="margin-bottom: 20px;">
+        <h3>Main Inventory & Bags</h3>
+        <div class="inventory-slot">Inv 1</div>
+        <div class="inventory-slot">Inv 2</div>
+        <div class="inventory-slot">Bag 1</div>
+        <div class="inventory-slot">Bag 2</div>
+        <div class="inventory-slot">Bag 3</div>
+    </div>
+
+    <div id="bank-slots" class="inventory-layout">
+        <h3>Bank & Shared Bank</h3>
+        <div class="inventory-slot">Bank 1</div>
+        <div class="inventory-slot">Bank 2</div>
+    </div>
+  </div>
+
+  <script src="../js/character_detail.js"></script>
+</body>
+</html>
